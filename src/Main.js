@@ -9,7 +9,7 @@ export function Main(){
 
     const history = useHistory();
 
-    return (<div>
+    return (<div id="Main">
         <h1>{currentLanguage.mainPage.title}</h1>
         <button onClick={() => history.push("/rules")}>Take Quiz</button>
     </div>)

@@ -88,7 +88,7 @@ export function Result(){
         setStressScore(0);
     };
 
-    return (<div>
+    return (<div id="Result">
         <h1>{currentLanguage.resultPage.title}</h1>
         <p>{currentLanguage.resultPage.depressionLabel} {depressionLevel} {depressionScore}</p>
         <p>{currentLanguage.resultPage.anxietyLabel} {anxietyLevel} {anxietyScore}</p>

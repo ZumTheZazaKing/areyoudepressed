@@ -52,7 +52,7 @@ export function Quiz(){
 
     return (<div id="Quiz">
         <h1>Quiz</h1>
-        <p id="question">{questions[questionIndex].text}</p>
+        <p id="question">{`${questionIndex+1}. ${questions[questionIndex].text}`}</p>
         <div id="options">
             {options && options.map((option, index) => <p key={index} id={option.value} onClick={e => selectOption(e)}>{option.text}</p>)}
         </div>

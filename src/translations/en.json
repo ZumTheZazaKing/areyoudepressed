@@ -3,7 +3,13 @@
         "title":"Main"
     },
     "rulesPage":{
-        "title":"Rules"
+        "title":"Rules",
+        "rules":[
+            "Please read the questions and pick an answer that best suits your condition for the past week",
+            "There are no right and wrong answers, so don't worry about it",
+            "DON'T take too long answering the questions",
+            "Be true to yourself"
+        ]
     },
     "quizPage":{
         "questions":[
