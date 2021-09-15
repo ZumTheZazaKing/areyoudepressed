@@ -5,13 +5,7 @@ import { useHistory } from "react-router-dom";
 
 export function Main(){
 
-    let { en, language, setLanguage } = useContext(Context);
-
-    let currentLanguage;
-
-    if(language === "en"){
-        currentLanguage = en;
-    }
+    let { currentLanguage } = useContext(Context);
 
     const history = useHistory();
 

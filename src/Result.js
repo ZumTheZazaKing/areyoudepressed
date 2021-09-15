@@ -12,18 +12,12 @@ export function Result(){
         stressScore, setStressScore,
         setShowResult, 
         showResult,
-        en, language
+        currentLanguage
     } = useContext(Context);
 
     const [depressionLevel, setDepressionLevel] = useState("");
     const [anxietyLevel, setAnxietyLevel] = useState("");
     const [stressLevel, setStressLevel] = useState("");
-
-    let currentLanguage;
-
-    if(language === "en"){
-        currentLanguage = en;
-    }
 
     const calcDepressionLevel = () => {
         if(depressionScore >= 0 && depressionScore <= 5){

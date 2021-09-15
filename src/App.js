@@ -1,4 +1,4 @@
-import { lazy, Suspense, useState } from "react";
+import { lazy, Suspense, useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { Context } from "./Contexts/Context";
@@ -19,6 +19,13 @@ function App() {
   const [stressScore, setStressScore] = useState(0);
 
   const [language, setLanguage] = useState("en");
+  const [currentLanguage, setCurrentLanguage] = useState(en);
+
+  useEffect(() => {
+    if(language === "en"){
+      setCurrentLanguage(en)
+    }
+  },[language])
 
   return (
     <Router>
@@ -28,7 +35,7 @@ function App() {
 
             <Context.Provider value={{
               en,
-              language, setLanguage,
+              currentLanguage,
               quizStart, setQuizStart,
               showResult, setShowResult,
               depressionScore, setDepressionScore,

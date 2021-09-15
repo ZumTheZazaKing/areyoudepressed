@@ -9,19 +9,13 @@ export function Quiz(){
 
     useEffect(() => {if(!quizStart)history.push("/")});
 
-    let { quizStart, en, language,
+    let { quizStart, currentLanguage,
         depressionScore, setDepressionScore, 
         anxietyScore, setAnxietyScore, 
         stressScore, setStressScore,
         setQuizStart,
         setShowResult
     } = useContext(Context);
-
-    let currentLanguage;
-
-    if(language === "en"){
-        currentLanguage = en;
-    }
 
     const questions = currentLanguage.quizPage.questions;
     let options = currentLanguage.quizPage.options;
