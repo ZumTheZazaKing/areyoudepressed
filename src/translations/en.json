@@ -1,0 +1,19 @@
+{
+    "mainPage":{
+        "title":"Main"
+    },
+    "quizPage":{
+        "questions":[
+            {"text":"I find it hard to calm down", "type":"stress"},
+            {"text":"I'm aware of the dryness in my mouth", "type":"anxiety"},
+            {"text":"I can't seem to experience any positive feeling at all", "type":"depression"}
+        ],
+        "options":[
+            {"text":"Never", "value":0},
+            {"text":"Rarely","value":1},
+            {"text":"Frequent","value":2},
+            {"text":"Very often", "value":3}
+        ]
+    }
+    
+}
