@@ -12,6 +12,8 @@ const Result = lazy(() => import('./Result').then(module => ({default:module.Res
 function App() {
 
   const [quizStart, setQuizStart] = useState(false);
+  const [showResult, setShowResult] = useState(false);
+
   const [depressionScore, setDepressionScore] = useState(0);
   const [anxietyScore, setAnxietyScore] = useState(0);
   const [stressScore, setStressScore] = useState(0);
@@ -26,8 +28,9 @@ function App() {
 
             <Context.Provider value={{
               en,
-              quizStart, setQuizStart,
               language, setLanguage,
+              quizStart, setQuizStart,
+              showResult, setShowResult,
               depressionScore, setDepressionScore,
               anxietyScore, setAnxietyScore,
               stressScore, setStressScore

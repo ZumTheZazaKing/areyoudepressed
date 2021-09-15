@@ -7,7 +7,13 @@ export function Rules(){
 
     const history = useHistory();
 
-    let { setQuizStart } = useContext(Context);
+    let { setQuizStart, en, language } = useContext(Context);
+
+    let currentLanguage;
+
+    if(language === "en"){
+        currentLanguage = en;
+    }
 
     const startQuiz = () => {
         history.push("/quiz");
@@ -15,7 +21,7 @@ export function Rules(){
     }
 
     return (<div>
-        <h1>Rules</h1>
+        <h1>{currentLanguage.rulesPage.title}</h1>
         <button onClick={() => startQuiz()}>Start</button>
     </div>)
 }

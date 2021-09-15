@@ -9,14 +9,22 @@ export function Quiz(){
 
     useEffect(() => {if(!quizStart)history.push("/")});
 
-    let { quizStart, en, 
+    let { quizStart, en, language,
         depressionScore, setDepressionScore, 
         anxietyScore, setAnxietyScore, 
-        stressScore, setStressScore 
+        stressScore, setStressScore,
+        setQuizStart,
+        setShowResult
     } = useContext(Context);
 
-    const questions = en.quizPage.questions;
-    let options = en.quizPage.options;
+    let currentLanguage;
+
+    if(language === "en"){
+        currentLanguage = en;
+    }
+
+    const questions = currentLanguage.quizPage.questions;
+    let options = currentLanguage.quizPage.options;
 
     let [questionIndex, setQuestionIndex] = useState(0);
     let [optionValue, setOptionValue] = useState(0);
@@ -27,7 +35,11 @@ export function Quiz(){
         setQuestionIndex(++questionIndex);
         setOptionValue(0);
 
-        if(questionIndex >= questions.length){history.push("/result")}
+        if(questionIndex >= questions.length){
+            setShowResult(true);
+            history.push("/result");
+            setQuizStart(false);
+        }
     }
 
     const selectOption = e => {
@@ -48,7 +60,7 @@ export function Quiz(){
         <h1>Quiz</h1>
         <p id="question">{questions[questionIndex].text}</p>
         <div id="options">
-            {options && options.map(option => <p id={option.value} onClick={e => selectOption(e)}>{option.text}</p>)}
+            {options && options.map((option, index) => <p key={index} id={option.value} onClick={e => selectOption(e)}>{option.text}</p>)}
         </div>
         <button disabled={optionValue ? false : true} onClick={() => incrementIndex()}>Next</button>
     </div>)
