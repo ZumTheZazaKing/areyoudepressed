@@ -3,6 +3,8 @@ import { Context } from "./Contexts/Context";
 import { useContext } from "react";
 import { useHistory } from "react-router-dom";
 
+import Button from '@material-ui/core/Button';
+
 export function Main(){
 
     let { currentLanguage } = useContext(Context);
@@ -10,7 +12,10 @@ export function Main(){
     const history = useHistory();
 
     return (<div id="Main">
-        <h1>{currentLanguage.mainPage.title}</h1>
-        <button onClick={() => history.push("/rules")}>Take Quiz</button>
+        <p id="title">{currentLanguage.mainPage.title}</p>
+        <p>{currentLanguage.mainPage.description}</p>
+        <Button id="button" variant="contained" onClick={() => history.push("/rules")}>
+            {currentLanguage.mainPage.button}
+        </Button>
     </div>)
 }

@@ -5,6 +5,7 @@ import { Context } from "./Contexts/Context";
 import en from './translations/en.json';
 
 const Main = lazy(() => import('./Main').then(module => ({default:module.Main})));
+const Navbar = lazy(() => import('./MainComponents/Navbar').then(module => ({default:module.Navbar})));
 const Quiz = lazy(() => import('./Quiz').then(module => ({default:module.Quiz})));
 const Rules = lazy(() => import('./Rules').then(module => ({default:module.Rules})));
 const Result = lazy(() => import('./Result').then(module => ({default:module.Result})));
@@ -43,6 +44,7 @@ function App() {
               stressScore, setStressScore
             }}>
               <Route exact path="/">
+                <Navbar/>
                 <Main/>
               </Route>
               <Route exact path="/rules">

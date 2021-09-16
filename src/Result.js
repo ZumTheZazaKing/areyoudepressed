@@ -93,6 +93,6 @@ export function Result(){
         <p>{currentLanguage.resultPage.depressionLabel} {depressionLevel} {depressionScore}</p>
         <p>{currentLanguage.resultPage.anxietyLabel} {anxietyLevel} {anxietyScore}</p>
         <p>{currentLanguage.resultPage.stressLabel} {stressLevel} {stressScore}</p>
-        <button onClick={() => goMain()}>Return</button>
+        <button onClick={() => goMain()}>{currentLanguage.resultPage.returnButton}</button>
     </div>)
 }

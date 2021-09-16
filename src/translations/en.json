@@ -1,15 +1,17 @@
 {
     "mainPage":{
-        "title":"Main"
+        "title":"Are you depressed?",
+        "description":"Make some time to take this test",
+        "button":"Take Test"
     },
     "rulesPage":{
         "title":"Rules",
         "rules":[
             "Please read the questions and pick an answer that best suits your condition for the past week",
             "There are no right and wrong answers, so don't worry about it",
-            "DON'T take too long answering the questions",
-            "Be true to yourself"
-        ]
+            "DON'T take too long answering the questions"
+        ],
+        "button":"Start"
     },
     "quizPage":{
         "questions":[
@@ -22,7 +24,8 @@
             {"text":"Rarely","value":1},
             {"text":"Frequent","value":2},
             {"text":"Very often", "value":3}
-        ]
+        ],
+        "button":"Next"
     },
     "resultPage":{
         "title":"Results",
@@ -35,7 +38,8 @@
             "Moderate",
             "Severe",
             "Extremely Severe"
-        ]
+        ],
+        "returnButton":"Return"
     }
     
 }

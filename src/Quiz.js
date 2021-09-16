@@ -1,6 +1,8 @@
 import { useContext, useEffect, useState } from "react";
 import { useHistory } from 'react-router-dom';
 
+import Button from '@material-ui/core/Button';
+
 import { Context } from "./Contexts/Context";
 
 export function Quiz(){
@@ -38,6 +40,7 @@ export function Quiz(){
 
     const selectOption = e => {
         setOptionValue(e.target.id);
+        console.log(e.target.id);
     }
 
     const addScore = () => {
@@ -51,11 +54,16 @@ export function Quiz(){
     }
 
     return (<div id="Quiz">
-        <h1>Quiz</h1>
         <p id="question">{`${questionIndex+1}. ${questions[questionIndex].text}`}</p>
         <div id="options">
-            {options && options.map((option, index) => <p key={index} id={option.value} onClick={e => selectOption(e)}>{option.text}</p>)}
+            {options && options.map((option, index) => 
+            <Button className="option" variant="contained" key={index} id={option.value} onClick={e => selectOption(e)} >
+                {option.text}
+            </Button>)}
         </div>
-        <button disabled={optionValue ? false : true} onClick={() => incrementIndex()}>Next</button>
+        <br/>
+        <Button id="nextButton" variant="contained" color="secondary"  disabled={optionValue ? false : true} onClick={() => incrementIndex()}>
+            {currentLanguage.quizPage.button}
+        </Button>
     </div>)
 }
