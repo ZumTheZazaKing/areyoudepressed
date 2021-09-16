@@ -104,7 +104,7 @@ body #Rules p {
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
 }
-body #Rules button {
+body #Rules #startButton {
   font-family: "Patua One", cursive;
   color: #1d1d1d;
   cursor: pointer;
@@ -117,7 +117,7 @@ body #Rules button {
   position: relative;
   min-width: 250px;
 }
-body #Rules button::after {
+body #Rules #startButton::after {
   content: ">";
   font-family: "Patua One", cursive;
   font-weight: 400;
@@ -129,7 +129,7 @@ body #Rules button::after {
   opacity: 0;
   transform: translate(-50%, -50%);
 }
-body #Rules button:hover {
+body #Rules #startButton:hover {
   background: #2b2bff;
   transition: all 0.5s;
   border-radius: 10px;
@@ -137,10 +137,16 @@ body #Rules button:hover {
   padding: 1.5rem 3rem 1.5rem 1.5rem;
   color: #ffffff;
 }
-body #Rules button:hover::after {
+body #Rules #startButton:hover::after {
   opacity: 1;
   transition: all 0.5s;
   color: #ffffff;
+}
+body #Rules #backButton {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  color: grey;
 }
 body #Quiz {
   width: 100%;

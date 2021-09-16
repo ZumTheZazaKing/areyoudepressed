@@ -111,7 +111,7 @@ body{
             font-family: $bodyFont;
             font-weight: 600;
         }
-        button {
+        #startButton {
             font-family: $titleFont;
             color: #1d1d1d;
             cursor: pointer;
@@ -151,6 +151,13 @@ body{
                 }
             }
         
+        }
+
+        #backButton{
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            color: grey;
         }
 
     }

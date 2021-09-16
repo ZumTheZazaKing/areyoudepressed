@@ -24,8 +24,11 @@ export function Rules(){
             {rules && rules.map((rule, index) => <span key={index}>{index+1}. {rule}<br/><br/></span>)}
         </p>
         <br/>
-        <Button variant="contained" onClick={() => startQuiz()}>
+        <Button id="startButton" variant="contained" onClick={() => startQuiz()}>
             {currentLanguage.rulesPage.button}
+        </Button>
+        <Button id="backButton" onClick={() => history.push("/")}>
+            Back
         </Button>
     </div>)
 }
