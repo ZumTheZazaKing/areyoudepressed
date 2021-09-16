@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -10,6 +11,13 @@ body {
   background: whitesmoke;
   margin: 0;
   padding: 0;
+}
+body #loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body #Navbar {
   background-color: whitesmoke;
@@ -58,7 +66,7 @@ body #Main #title {
 }
 body #Main #button {
   margin: 10px;
-  padding: 15px 45px;
+  padding: 10px 30px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -160,14 +168,92 @@ body #Quiz #options .option {
   margin-top: 5px;
   margin-bottom: 5px;
   width: 60%;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  background: #dddddd;
+  cursor: pointer;
+  transition: 0.2s ease-in;
 }
-body #Quiz #options .option[name=selected] {
+body #Quiz #options .selected {
   background-color: #1976d2;
+  color: white;
+}
+body #Result {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body #Result .secondary {
+  color: purple;
+}
+body #Result .primary {
+  color: #1976d2;
+}
+body #Result .success {
+  color: green;
+}
+body #Result .warning {
+  color: orange;
+}
+body #Result .error {
+  color: crimson;
+}
+body #Result h1 {
+  font-family: "Patua One", cursive;
+}
+body #Result #main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #Result #main .mainPoint {
+  padding: 10px 30px;
+  text-align: center;
+}
+body #Result #main .mainPoint h2, body #Result #main .mainPoint h3 {
+  font-family: "Quicksand", sans-serif;
+}
+body #Result #main .mainPoint p {
+  position: relative;
+  bottom: 100px;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body #Result #returnButton {
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+  margin: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+body #Result #returnButton:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
   #Quiz #options .option {
     width: 90% !important;
+  }
+
+  #Result #main {
+    flex-direction: column;
   }
 }
 

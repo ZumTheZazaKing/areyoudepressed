@@ -7,7 +7,7 @@
     "rulesPage":{
         "title":"Rules",
         "rules":[
-            "Please read the questions and pick an answer that best suits your condition for the past week",
+            "Please read the questions and pick an answer that best suits your condition for the PAST WEEK",
             "There are no right and wrong answers, so don't worry about it",
             "DON'T take too long answering the questions"
         ],
@@ -15,9 +15,27 @@
     },
     "quizPage":{
         "questions":[
-            {"text":"I find it hard to calm down", "type":"stress"},
-            {"text":"I'm aware of the dryness in my mouth", "type":"anxiety"},
-            {"text":"I can't seem to experience any positive feeling at all", "type":"depression"}
+            {"text":"I found it hard to wind down", "type":"stress"},
+            {"text":"I was aware of dryness of my mouth", "type":"anxiety"},
+            {"text":"I couldn't seem to experience any positive feeling at all", "type":"depression"},
+            {"text":"I experienced breathing difficulty (e.g excessively rapid breathing, breathlessness in the absence of physical exertion)", "type":"anxiety"},
+            {"text":"I found it difficult to work up the initiative to do things", "type":"depression"},
+            {"text":"I tended to over-react to situations", "type":"stress"},
+            {"text":"I experienced trembling (e.g in the hands)", "type":"anxiety"},
+            {"text":"I felt that I was using a lot of nervous energy", "type":"stress"},
+            {"text":"I was worried about situations in which I might panic and make a fool of myself", "type":"anxiety"},
+            {"text":"I felt that I had nothing to look forward to", "type":"depression"},
+            {"text":"I found myself getting agitated", "type":"stress"},
+            {"text":"I found it difficult to relax", "type":"stress"},
+            {"text":"I felt down-hearted and blue", "type":"depression"},
+            {"text":"I wan intolerant of anything that kept me from getting on with what I was doing", "type":"stress"},
+            {"text":"I felt I was close to panic", "type":"anxiety"},
+            {"text":"I was unable to become enthusiastic about anything", "type":"depression"},
+            {"text":"I felt I wasn't worth much as a person", "type":"depression"},
+            {"text":"I felt that I was rather touchy", "type":"stress"},
+            {"text":"I was aware of the action of my heart in the absence of physical exertion (e.g sense of heart rate increase, heart missing a beat)", "type":"anxiety"},
+            {"text":"I felt scared without any good reason", "type":"anxiety"},
+            {"text":"I felt that life was meaningless", "type":"depression"}
         ],
         "options":[
             {"text":"Never", "value":0},

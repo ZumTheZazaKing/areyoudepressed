@@ -25,11 +25,14 @@ export function Quiz(){
     let [questionIndex, setQuestionIndex] = useState(0);
     let [optionValue, setOptionValue] = useState(0);
 
+    let [previousOption, setPreviousOption] = useState("");
 
     function incrementIndex(){
         addScore();
         setQuestionIndex(++questionIndex);
         setOptionValue(0);
+        previousOption.className = "option";
+        setPreviousOption("");
 
         if(questionIndex >= questions.length){
             setShowResult(true);
@@ -39,8 +42,11 @@ export function Quiz(){
     }
 
     const selectOption = e => {
+        if(previousOption && (previousOption.innerHTML !== e.target.innerHTML))previousOption.className = "option";
+        setPreviousOption(e.target);
+
+        e.target.className += " selected";
         setOptionValue(e.target.id);
-        console.log(e.target.id);
     }
 
     const addScore = () => {
@@ -57,9 +63,9 @@ export function Quiz(){
         <p id="question">{`${questionIndex+1}. ${questions[questionIndex].text}`}</p>
         <div id="options">
             {options && options.map((option, index) => 
-            <Button className="option" variant="contained" key={index} id={option.value} onClick={e => selectOption(e)} >
+            <p className="option" key={index} id={option.value} onClick={e => selectOption(e)} >
                 {option.text}
-            </Button>)}
+            </p>)}
         </div>
         <br/>
         <Button id="nextButton" variant="contained" color="secondary"  disabled={optionValue ? false : true} onClick={() => incrementIndex()}>

@@ -1,5 +1,6 @@
 import { lazy, Suspense, useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import CircularProgress from '@mui/material/CircularProgress';
 
 import { Context } from "./Contexts/Context";
 import en from './translations/en.json';
@@ -31,7 +32,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Suspense fallback={<h2>Loading...</h2>}>
+        <Suspense fallback={<div id="loading"><CircularProgress size={80}/></div>}>
           <Switch>
 
             <Context.Provider value={{
