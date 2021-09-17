@@ -7,14 +7,19 @@ import Button from '@material-ui/core/Button';
 
 export function Main(){
 
-    let { currentLanguage } = useContext(Context);
+    let { currentLanguage, setShowNav } = useContext(Context);
 
     const history = useHistory();
+
+    const takeTest = () => {
+        history.push("/rules");
+        setShowNav(false);
+    }
 
     return (<div id="Main">
         <p id="title">{currentLanguage.mainPage.title}</p>
         <p>{currentLanguage.mainPage.description}</p>
-        <Button id="button" variant="contained" onClick={() => history.push("/rules")}>
+        <Button id="button" variant="contained" onClick={() => takeTest()}>
             {currentLanguage.mainPage.button}
         </Button>
     </div>)

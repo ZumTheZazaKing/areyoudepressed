@@ -15,7 +15,8 @@ export function Result(){
         stressScore, setStressScore,
         setShowResult, 
         showResult,
-        currentLanguage
+        currentLanguage,
+        setShowNav
     } = useContext(Context);
 
     const [depressionLevel, setDepressionLevel] = useState("");
@@ -127,6 +128,7 @@ export function Result(){
         setDepressionColor("secondary");
         setAnxietyColor("secondary");
         setStressColor("secondary");
+        setShowNav(true);
     };
 
     return (<div id="Result">

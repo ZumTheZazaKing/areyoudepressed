@@ -9,13 +9,18 @@ export function Rules(){
 
     const history = useHistory();
 
-    let { setQuizStart, currentLanguage} = useContext(Context);
+    let { setQuizStart, currentLanguage, setShowNav } = useContext(Context);
 
     const rules = currentLanguage.rulesPage.rules;
 
     const startQuiz = () => {
         history.push("/quiz");
         setQuizStart(true)
+    }
+
+    const back = () => {
+        history.push("/");
+        setShowNav(true);
     }
 
     return (<div id="Rules">
@@ -27,7 +32,7 @@ export function Rules(){
         <Button id="startButton" variant="contained" onClick={() => startQuiz()}>
             {currentLanguage.rulesPage.button}
         </Button>
-        <Button id="backButton" onClick={() => history.push("/")}>
+        <Button id="backButton" onClick={() => back()}>
             Back
         </Button>
     </div>)
