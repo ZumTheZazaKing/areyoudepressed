@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { useHistory } from 'react-router-dom';
 
 import Button from '@material-ui/core/Button';
+import LinearProgress from '@mui/material/LinearProgress';
 
 import { Context } from "./Contexts/Context";
 
@@ -60,6 +61,7 @@ export function Quiz(){
     }
 
     return (<div id="Quiz">
+        <LinearProgress variant="determinate" value={((questionIndex)/21)*100} id="progressBar"/>
         <p id="question">{`${questionIndex+1}. ${questions[questionIndex].text}`}</p>
         <div id="options">
             {options && options.map((option, index) => 

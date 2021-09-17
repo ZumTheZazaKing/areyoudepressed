@@ -157,6 +157,11 @@ body #Quiz {
   flex-direction: column;
   padding: 10px;
 }
+body #Quiz #progressBar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 body #Quiz #question {
   font-family: "Comfortaa", cursive;
   font-weight: 700;

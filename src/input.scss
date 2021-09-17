@@ -170,6 +170,11 @@ body{
         align-items: center;
         flex-direction: column;
         padding: 10px;
+        #progressBar{
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
         #question{
             font-family: 'Comfortaa', cursive;
             font-weight: 700;
