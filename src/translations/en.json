@@ -8,6 +8,39 @@
         "description":"Make some time to take this test",
         "button":"Take Test"
     },
+    "aboutPage":{
+        "contentOne":{
+            "title":"What is DASS-21?",
+            "body":[
+                "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed tomeasure the emotional states of depression, anxiety and stress.",
+                "Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content.",
+                "The depression scale assesses dysphoria, hopelessness, devaluation of life, self-deprecation, lack of interest / involvement, anhedonia and inertia.",
+                "The anxiety scale assesses autonomic arousal, skeletal muscle effects, situational anxiety, and subjective experience of anxious affect.",
+                "Scores for depression, anxiety and stress are calculated by summing the scores for the relevant items."
+            ]
+        },
+        "contentTwo":{
+            "title":"Is DASS-21 reliable?",
+            "body":[
+                "The answer is; Yes definitely. Below are a few articles to prove that DASS is valid and reliable.",
+                {"articles":[
+                    "Lovibond SH, Lovibond PF. Manual for the Depression Anxiety Stress Scales. 2. Sydney: Psychology Foundation of Australia; 1995.",
+                    "Lovibond PF, Lovibond SH. The structure of negative emotional states: comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories. Behav Res Ther. 1995;33(3):335–343.",
+                    "Ng F, Trauer T, Dodd S, Callaly T, Campbell S, Berk M. The validity of the 21‐item version of the Depression Anxiety Stress Scales as a routine clinical outcome measure. Acta Neuropsychiatrica. 2007;19(5):304–310",
+                    "Brown TA, Chorpita BF, Korotitsch W, Barlow DH. Psychometric properties of the Depression Anxiety Stress Scales (DASS) in clinical samples. Behav Res Ther. 1997;35(1):79–89.",
+                    "Antony MM, Bieling PJ, Cox BJ, Enns MW, Swinson RP. Psychometric properties of the 42-item and 21-item versions of the Depression Anxiety Stress Scales in clinical groups and a community sample. Psychol Assess. 1998;10(2):176–181.",
+                    "Henry JD, Crawford JR. The short-form version of the Depression Anxiety Stress Scales (DASS-21): Construct validity and normative data in a large non-clinical sample. Br J Clin Psychol. 2005;44:227–239."
+                ]}
+            ]
+        },
+        "contentThree":{
+            "title":"Score Interpretation"
+        }
+    },
+
+
+
+
     "rulesPage":{
         "title":"Rules",
         "rules":[

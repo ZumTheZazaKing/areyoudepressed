@@ -93,7 +93,74 @@ body{
     }
 
     #About{
-        border: 1px solid black;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 50px;
+        h2{
+            font-family: $titleFont;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 60%;
+            line-height: 1.5;
+            text-align: center;
+            padding-bottom: 20px;
+            details{cursor: pointer;}
+            details[open] summary ~ *{
+                cursor: pointer;
+                transition: .2s ease-in;
+                animation:sweep .5s ease-in-out;
+            }
+            details summary::before{
+                content:"Show Articles"
+            }
+            details[open] summary::before{
+                content:"Hide Articles"
+            }
+            @keyframes sweep {
+                0% {opacity: 0; margin-left: -10px}
+                100% {opacity: 1; margin-left: 0px}
+            }
+            li{
+                text-align: left;
+                margin-bottom: 20px;
+            }
+            table,th,td{
+                border-collapse: collapse;
+                padding: 10px;
+                width: 100%;
+            }
+            th,td{
+                width: 25%;
+                border: 1px solid black;
+            }
+            thead{
+                th{
+                    border-top: none;
+                    border-left: none;
+                }
+                :last-child{
+                    border-right: none;
+                }
+            }
+            tbody{
+                th{
+                    border-left: none;
+                    border-bottom: none;
+                }
+                td{
+                    border-right: none;
+                    border-bottom: none;
+                }
+            }
+        }
     }
 
 
@@ -307,6 +374,12 @@ body{
     #Result{
         #main{
             flex-direction: column;
+        }
+    }
+
+    #About{
+        .content{
+            width: 100% !important;
         }
     }
 
