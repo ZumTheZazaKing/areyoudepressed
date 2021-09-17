@@ -1,4 +1,4 @@
-import { Context } from "./Contexts/Context";
+import { Context } from "../Contexts/Context";
 
 import { useContext } from "react";
 import { useHistory } from "react-router-dom";

@@ -39,6 +39,7 @@ body #Navbar #links span {
   cursor: pointer;
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
+  text-transform: uppercase;
 }
 body #Navbar h3 {
   margin: 0;

@@ -5,8 +5,10 @@ import CircularProgress from '@mui/material/CircularProgress';
 import { Context } from "./Contexts/Context";
 import en from './translations/en.json';
 
-const Main = lazy(() => import('./Main').then(module => ({default:module.Main})));
+const Main = lazy(() => import('./MainComponents/Main').then(module => ({default:module.Main})));
 const Navbar = lazy(() => import('./MainComponents/Navbar').then(module => ({default:module.Navbar})));
+const About = lazy(() => import('./MainComponents/About').then(module => ({default:module.About})));
+
 const Quiz = lazy(() => import('./Quiz').then(module => ({default:module.Quiz})));
 const Rules = lazy(() => import('./Rules').then(module => ({default:module.Rules})));
 const Result = lazy(() => import('./Result').then(module => ({default:module.Result})));
@@ -47,9 +49,14 @@ function App() {
               stressScore, setStressScore
             }}>
               {showNav ? <Navbar/> : ""}
+
               <Route exact path="/">
                 <Main/>
               </Route>
+              <Route exact path="/about">
+                <About/>
+              </Route>
+
               <Route exact path="/rules">
                 <Rules/>
               </Route>

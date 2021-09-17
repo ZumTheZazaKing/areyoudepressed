@@ -1,4 +1,8 @@
 {
+    "navbar":{
+        "home":"Home",
+        "about":"About"
+    },
     "mainPage":{
         "title":"Are you depressed?",
         "description":"Make some time to take this test",
