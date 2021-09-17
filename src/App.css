@@ -55,9 +55,24 @@ body #Main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: 0.5s ease-in;
+}
+body #Main #point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 body #Main p {
   font-family: "Quicksand", sans-serif;
+  z-index: 1;
 }
 body #Main #title {
   margin: 0;
@@ -65,6 +80,7 @@ body #Main #title {
   font-family: "Arvo", serif;
   font-size: 30px;
   text-align: center;
+  z-index: 1;
 }
 body #Main #button {
   margin: 10px;
@@ -78,6 +94,7 @@ body #Main #button {
   border-radius: 10px;
   display: block;
   background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+  z-index: 1;
 }
 body #Main #button:hover {
   background-position: right center;
@@ -95,6 +112,9 @@ body #About {
 }
 body #About #starting {
   font-family: "Quicksand", sans-serif;
+  margin: 0;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 body #About h2 {
   font-family: "Patua One", cursive;
@@ -145,7 +165,7 @@ body #About .content table, body #About .content th, body #About .content td {
 }
 body #About .content th, body #About .content td {
   width: 25%;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 body #About .content thead th {
   border-top: none;
@@ -338,6 +358,10 @@ body #Result #returnButton:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  #Main #image {
+    width: 200vw !important;
+  }
+
   #Quiz #options .option {
     width: 90% !important;
   }
