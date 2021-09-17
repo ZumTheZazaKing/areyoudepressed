@@ -7,13 +7,18 @@ export function Navbar(){
 
     const history = useHistory();
 
-    let { currentLanguage } = useContext(Context);
+    let { currentLanguage, setShowAbout } = useContext(Context);
+
+    const goAbout = () => {
+        history.push("/about");
+        setShowAbout(true);
+    }
 
     return (<div id="Navbar">
         <h3>Are You Depressed?</h3>
         <div id="links">
             <span onClick={() => history.push("/")}>{currentLanguage.navbar.home}</span>
-            <span onClick={() => history.push("/about")}>{currentLanguage.navbar.about}</span>
+            <span onClick={() => goAbout()}>{currentLanguage.navbar.about}</span>
         </div>
     </div>)
 }
