@@ -9,9 +9,9 @@ const Main = lazy(() => import('./MainComponents/Main').then(module => ({default
 const Navbar = lazy(() => import('./MainComponents/Navbar').then(module => ({default:module.Navbar})));
 const About = lazy(() => import('./MainComponents/About').then(module => ({default:module.About})));
 
-const Quiz = lazy(() => import('./Quiz').then(module => ({default:module.Quiz})));
-const Rules = lazy(() => import('./Rules').then(module => ({default:module.Rules})));
-const Result = lazy(() => import('./Result').then(module => ({default:module.Result})));
+const Quiz = lazy(() => import('./QuizComponents/Quiz').then(module => ({default:module.Quiz})));
+const Rules = lazy(() => import('./QuizComponents/Rules').then(module => ({default:module.Rules})));
+const Result = lazy(() => import('./QuizComponents/Result').then(module => ({default:module.Result})));
 
 function App() {
 

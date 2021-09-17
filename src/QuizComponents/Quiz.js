@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import LinearProgress from '@mui/material/LinearProgress';
 
-import { Context } from "./Contexts/Context";
+import { Context } from "../Contexts/Context";
 
 export function Quiz(){
 

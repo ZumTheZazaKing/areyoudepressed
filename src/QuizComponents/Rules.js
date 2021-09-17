@@ -1,7 +1,7 @@
 import { useHistory } from "react-router-dom"
 import { useContext } from 'react';
 
-import { Context } from "./Contexts/Context";
+import { Context } from "../Contexts/Context";
 
 import Button from '@material-ui/core/Button';
 
