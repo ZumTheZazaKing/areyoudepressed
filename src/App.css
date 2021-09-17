@@ -93,6 +93,9 @@ body #About {
   flex-direction: column;
   padding-bottom: 50px;
 }
+body #About #starting {
+  font-family: "Quicksand", sans-serif;
+}
 body #About h2 {
   font-family: "Patua One", cursive;
 }

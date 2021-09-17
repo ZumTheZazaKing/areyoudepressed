@@ -9,6 +9,7 @@
         "button":"Take Test"
     },
     "aboutPage":{
+        "starting":"We use DASS-21 for the test",
         "contentOne":{
             "title":"What is DASS-21?",
             "body":[

@@ -12,6 +12,7 @@ export function About(){
     useEffect(() => {if(!showAbout)history.push("/")});
 
     return <div id="About">
+        <p id="starting">{currentLanguage.aboutPage.starting}</p>
         <div className="content">
             <h2>{currentLanguage.aboutPage.contentOne.title}</h2>
             <p>

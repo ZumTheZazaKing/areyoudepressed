@@ -99,6 +99,9 @@ body{
         align-items: center;
         flex-direction: column;
         padding-bottom: 50px;
+        #starting{
+            font-family: $bodyFont;
+        }
         h2{
             font-family: $titleFont;
         }
