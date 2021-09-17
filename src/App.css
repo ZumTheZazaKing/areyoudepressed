@@ -11,6 +11,7 @@ body {
   background: whitesmoke;
   margin: 0;
   padding: 0;
+  /* ------- QUIZ COMPONENTS STYLES --------*/
 }
 body #loading {
   width: 100%;
@@ -83,6 +84,9 @@ body #Main #button:hover {
   /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+body #About {
+  border: 1px solid black;
 }
 body #Rules {
   width: 100%;
