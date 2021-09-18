@@ -12,30 +12,34 @@ export function About(){
     useEffect(() => {if(!showAbout)history.push("/")});
 
     return <div id="About">
-        <p id="starting">{currentLanguage.aboutPage.starting}</p>
         <div className="content">
-            <h2>{currentLanguage.aboutPage.contentOne.title}</h2>
-            <p>
-                {currentLanguage.aboutPage.contentOne.body[0]}
-                <br/><br/>
-                {currentLanguage.aboutPage.contentOne.body[1]}
-                {currentLanguage.aboutPage.contentOne.body[2]}
-                {currentLanguage.aboutPage.contentOne.body[3]}
-                <br/><br/>
-                {currentLanguage.aboutPage.contentOne.body[4]}
-            </p>
+
         </div>
 
+        <p id="starting">{currentLanguage.aboutPage.starting}</p>
         <div className="content">
             <h2>{currentLanguage.aboutPage.contentTwo.title}</h2>
             <p>
                 {currentLanguage.aboutPage.contentTwo.body[0]}
+                <br/><br/>
+                {currentLanguage.aboutPage.contentTwo.body[1]}
+                {currentLanguage.aboutPage.contentTwo.body[2]}
+                {currentLanguage.aboutPage.contentTwo.body[3]}
+                <br/><br/>
+                {currentLanguage.aboutPage.contentTwo.body[4]}
+            </p>
+        </div>
+
+        <div className="content">
+            <h2>{currentLanguage.aboutPage.contentThree.title}</h2>
+            <p>
+                {currentLanguage.aboutPage.contentThree.body[0]}
             </p>
             <details>
                 <summary></summary>
                 <ul>
-                    {currentLanguage.aboutPage.contentTwo.body[1].articles &&
-                    currentLanguage.aboutPage.contentTwo.body[1].articles.map((article, index) => {
+                    {currentLanguage.aboutPage.contentThree.body[1].articles &&
+                    currentLanguage.aboutPage.contentThree.body[1].articles.map((article, index) => {
                         return <li key={index}><b> {article}</b></li>
                     })}
                 </ul>
@@ -43,7 +47,7 @@ export function About(){
         </div>
 
         <div className="content">
-            <h2>{currentLanguage.aboutPage.contentThree.title}</h2>
+            <h2>{currentLanguage.aboutPage.contentFour.title}</h2>
             <table>
                 <thead>
                     <tr>

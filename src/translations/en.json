@@ -10,7 +10,7 @@
     },
     "aboutPage":{
         "starting":"We use DASS-21 for the test",
-        "contentOne":{
+        "contentTwo":{
             "title":"What is DASS-21?",
             "body":[
                 "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed tomeasure the emotional states of depression, anxiety and stress.",
@@ -20,7 +20,7 @@
                 "Scores for depression, anxiety and stress are calculated by summing the scores for the relevant items."
             ]
         },
-        "contentTwo":{
+        "contentThree":{
             "title":"Is DASS-21 reliable?",
             "body":[
                 "The answer is; Yes definitely. Below are a few articles to prove that DASS is valid and reliable.",
@@ -34,7 +34,7 @@
                 ]}
             ]
         },
-        "contentThree":{
+        "contentFour":{
             "title":"Score Interpretation"
         }
     },
