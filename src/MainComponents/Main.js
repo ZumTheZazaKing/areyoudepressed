@@ -3,21 +3,21 @@ import { Context } from "../Contexts/Context";
 import { useContext, useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 
-import Image1 from '../Images/mainImage1.jpeg';
-import Image2 from '../Images/mainImage2.jpeg';
-import Image3 from '../Images/mainImage3.jpeg';
-import Image4 from '../Images/mainImage4.jpeg';
-import Image5 from '../Images/mainImage5.jpeg';
-import Image6 from '../Images/mainImage6.jpeg';
-import Image7 from '../Images/mainImage7.jpeg';
-import Image8 from '../Images/mainImage8.jpeg';
-import Image9 from '../Images/mainImage9.jpeg';
-import Image10 from '../Images/mainImage10.jpeg';
-import Image11 from '../Images/mainImage11.jpeg';
-import Image12 from '../Images/mainImage12.jpeg';
-import Image13 from '../Images/mainImage13.jpeg';
-import Image14 from '../Images/mainImage14.jpeg';
-import Image15 from '../Images/mainImage15.jpeg';
+import Image1 from '../Images/MainBackground/mainImage1.jpeg';
+import Image2 from '../Images/MainBackground/mainImage2.jpeg';
+import Image3 from '../Images/MainBackground/mainImage3.jpeg';
+import Image4 from '../Images/MainBackground/mainImage4.jpeg';
+import Image5 from '../Images/MainBackground/mainImage5.jpeg';
+import Image6 from '../Images/MainBackground/mainImage6.jpeg';
+import Image7 from '../Images/MainBackground/mainImage7.jpeg';
+import Image8 from '../Images/MainBackground/mainImage8.jpeg';
+import Image9 from '../Images/MainBackground/mainImage9.jpeg';
+import Image10 from '../Images/MainBackground/mainImage10.jpeg';
+import Image11 from '../Images/MainBackground/mainImage11.jpeg';
+import Image12 from '../Images/MainBackground/mainImage12.jpeg';
+import Image13 from '../Images/MainBackground/mainImage13.jpeg';
+import Image14 from '../Images/MainBackground/mainImage14.jpeg';
+import Image15 from '../Images/MainBackground/mainImage15.jpeg';
 
 import Button from '@material-ui/core/Button';
 
@@ -49,7 +49,6 @@ export function Main(){
                 setImageIndex(++imageIndex);
                 setImage(images[imageIndex]);
             }
-            console.log(imageIndex)
         },10000)
         return () => clearInterval(interval);
     });

@@ -294,6 +294,7 @@ body{
             width: 100%;
             position: fixed;
             top: 0;
+            height: 10px;
         }
         #question{
             font-family: 'Comfortaa', cursive;
@@ -365,6 +366,31 @@ body{
                 }
             }
         }
+        #advice{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            .advice{
+                border: 1px solid black;
+                padding: 10px;
+                flex-direction: column;
+                h2{
+                    font-family: $titleFont;
+                    text-align: center;
+                }
+                #body{
+                    display: flex;
+                    img{
+                        width: 150px;
+                        height: 150px;
+                        margin: 10px;
+                    }
+                    p{
+                        border: 1px solid black;
+                    }
+                }
+            }
+        }
         #returnButton {
             background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
             margin: 10px;
@@ -389,7 +415,7 @@ body{
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     #Main{
         #image{
@@ -408,6 +434,19 @@ body{
     #Result{
         #main{
             flex-direction: column;
+        }
+        #advice{
+            width: 90% !important;
+            .advice{
+                #body{
+                    flex-direction: column;
+                    align-items: center;
+                    p{
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
         }
     }
 
