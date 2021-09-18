@@ -8,6 +8,7 @@ import en from './translations/en.json';
 const Main = lazy(() => import('./MainComponents/Main').then(module => ({default:module.Main})));
 const Navbar = lazy(() => import('./MainComponents/Navbar').then(module => ({default:module.Navbar})));
 const About = lazy(() => import('./MainComponents/About').then(module => ({default:module.About})));
+const Contact = lazy(() => import('./MainComponents/Contact').then(module => ({default:module.Contact})));
 
 const Quiz = lazy(() => import('./QuizComponents/Quiz').then(module => ({default:module.Quiz})));
 const Rules = lazy(() => import('./QuizComponents/Rules').then(module => ({default:module.Rules})));
@@ -18,6 +19,7 @@ function App() {
   const [quizStart, setQuizStart] = useState(false);
   const [showResult, setShowResult] = useState(false);
   const [showAbout, setShowAbout] = useState(false);
+  const [showContact, setShowContact] = useState(false);
   const [showNav, setShowNav] = useState(true);
 
   const [depressionScore, setDepressionScore] = useState(0);
@@ -44,6 +46,7 @@ function App() {
               currentLanguage,
               showNav, setShowNav,
               showAbout, setShowAbout,
+              showContact, setShowContact,
               quizStart, setQuizStart,
               showResult, setShowResult,
               depressionScore, setDepressionScore,
@@ -57,6 +60,9 @@ function App() {
               </Route>
               <Route exact path="/about">
                 <About/>
+              </Route>
+              <Route exact path="/contact">
+                <Contact/>
               </Route>
 
               <Route exact path="/rules">

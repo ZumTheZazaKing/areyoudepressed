@@ -7,11 +7,16 @@ export function Navbar(){
 
     const history = useHistory();
 
-    let { currentLanguage, setShowAbout } = useContext(Context);
+    let { currentLanguage, setShowAbout, setShowContact } = useContext(Context);
 
     const goAbout = () => {
         history.push("/about");
         setShowAbout(true);
+    }
+
+    const goContact = () => {
+        history.push("/contact");
+        setShowContact(true);
     }
 
     return (<div id="Navbar">
@@ -19,6 +24,7 @@ export function Navbar(){
         <div id="links">
             <span onClick={() => history.push("/")}>{currentLanguage.navbar.home}</span>
             <span onClick={() => goAbout()}>{currentLanguage.navbar.about}</span>
+            <span onClick={() => goContact()}>{currentLanguage.navbar.contact}</span>
         </div>
     </div>)
 }

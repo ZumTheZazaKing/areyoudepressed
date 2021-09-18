@@ -1,7 +1,8 @@
 {
     "navbar":{
         "home":"Home",
-        "about":"About"
+        "about":"About",
+        "contact":"Contact"
     },
     "mainPage":{
         "title":"Are You Depressed?",
