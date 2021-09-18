@@ -13,7 +13,19 @@ export function About(){
 
     return <div id="About">
         <div className="content">
-
+            <h2>{currentLanguage.aboutPage.contentOne.title}</h2>
+            <p>
+                {currentLanguage.aboutPage.contentOne.body[0]}
+                {currentLanguage.aboutPage.contentOne.body[1]}
+                {currentLanguage.aboutPage.contentOne.body[2]}
+                <br/><br/>
+                {currentLanguage.aboutPage.contentOne.body[3]}
+                {currentLanguage.aboutPage.contentOne.body[4]}
+                <br/><br/>
+                {currentLanguage.aboutPage.contentOne.body[5]}
+                {currentLanguage.aboutPage.contentOne.body[6]}
+                <b>Are You Depressed?</b>
+            </p>
         </div>
 
         <p id="starting">{currentLanguage.aboutPage.starting}</p>
