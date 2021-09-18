@@ -48,38 +48,38 @@ export function About(){
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Depression</th>
-                        <th>Anxiety</th>
-                        <th>Stress</th>
+                        <th>{currentLanguage.resultPage.depressionLabel}</th>
+                        <th>{currentLanguage.resultPage.anxietyLabel}</th>
+                        <th>{currentLanguage.resultPage.stressLabel}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Normal</th>
+                        <th>{currentLanguage.resultPage.results[0]}</th>
                         <td>0-5</td>
                         <td>0-4</td>
                         <td>0-7</td>
                     </tr>
                     <tr>
-                        <th>Mild</th>
+                        <th>{currentLanguage.resultPage.results[1]}</th>
                         <td>6-7</td>
                         <td>5-6</td>
                         <td>8-9</td>
                     </tr>
                     <tr>
-                        <th>Moderate</th>
+                        <th>{currentLanguage.resultPage.results[2]}</th>
                         <td>8-10</td>
                         <td>7-8</td>
                         <td>10-13</td>
                     </tr>
                     <tr>
-                        <th>Severe</th>
+                        <th>{currentLanguage.resultPage.results[3]}</th>
                         <td>11-14</td>
                         <td>9-10</td>
                         <td>14-17</td>
                     </tr>
                     <tr>
-                        <th>Extremely Severe</th>
+                        <th>{currentLanguage.resultPage.results[4]}</th>
                         <td>15+</td>
                         <td>11+</td>
                         <td>18+</td>
