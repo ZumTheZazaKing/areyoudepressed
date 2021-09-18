@@ -109,6 +109,10 @@ body #About {
   align-items: center;
   flex-direction: column;
   padding-bottom: 50px;
+  background-image: url(./Images/aboutImage.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 }
 body #About #starting {
   font-family: "Quicksand", sans-serif;

@@ -116,6 +116,10 @@ body{
         align-items: center;
         flex-direction: column;
         padding-bottom: 50px;
+        background-image: url(./Images/aboutImage.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
         #starting{
             font-family: $bodyFont;
             margin: 0;
