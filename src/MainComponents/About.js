@@ -14,7 +14,9 @@ export function About(){
     return <div id="About">
         <div className="content">
             <h2>{currentLanguage.aboutPage.contentOne.title}</h2>
-            <p>
+            <details>
+                <summary></summary>
+                <p>
                 {currentLanguage.aboutPage.contentOne.body[0]}
                 {currentLanguage.aboutPage.contentOne.body[1]}
                 {currentLanguage.aboutPage.contentOne.body[2]}
@@ -25,13 +27,17 @@ export function About(){
                 {currentLanguage.aboutPage.contentOne.body[5]}
                 {currentLanguage.aboutPage.contentOne.body[6]}
                 <b>Are You Depressed?</b>
-            </p>
+                </p>
+            </details>
         </div>
 
-        <p id="starting">{currentLanguage.aboutPage.starting}</p>
+        
         <div className="content">
+            <p id="starting">{currentLanguage.aboutPage.starting}</p>
             <h2>{currentLanguage.aboutPage.contentTwo.title}</h2>
-            <p>
+            <details>
+                <summary></summary>
+                <p>
                 {currentLanguage.aboutPage.contentTwo.body[0]}
                 <br/><br/>
                 {currentLanguage.aboutPage.contentTwo.body[1]}
@@ -39,26 +45,30 @@ export function About(){
                 {currentLanguage.aboutPage.contentTwo.body[3]}
                 <br/><br/>
                 {currentLanguage.aboutPage.contentTwo.body[4]}
-            </p>
-        </div>
-
-        <div className="content">
-            <h2>{currentLanguage.aboutPage.contentThree.title}</h2>
-            <p>
-                {currentLanguage.aboutPage.contentThree.body[0]}
-            </p>
-            <details>
-                <summary></summary>
-                <ul>
-                    {currentLanguage.aboutPage.contentThree.body[1].articles &&
-                    currentLanguage.aboutPage.contentThree.body[1].articles.map((article, index) => {
-                        return <li key={index}><b> {article}</b></li>
-                    })}
-                </ul>
+                </p>
             </details>
         </div>
 
         <div className="content">
+            <h2>{currentLanguage.aboutPage.contentThree.title}</h2>
+            <details>
+                <summary></summary>
+                <p>
+                    {currentLanguage.aboutPage.contentThree.body[0]}
+                </p>
+                <details className="articles">
+                    <summary></summary>
+                        <ul>
+                            {currentLanguage.aboutPage.contentThree.body[1].articles &&
+                            currentLanguage.aboutPage.contentThree.body[1].articles.map((article, index) => {
+                                return <li key={index}><b> {article}</b></li>
+                            })}
+                        </ul>
+                </details>
+            </details>
+        </div>
+
+        <div className="content" id="scoreTable">
             <h2>{currentLanguage.aboutPage.contentFour.title}</h2>
             <table>
                 <thead>

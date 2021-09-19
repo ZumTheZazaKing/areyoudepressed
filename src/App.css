@@ -154,16 +154,52 @@ body #About #starting {
 body #About h2 {
   font-family: "Patua One", cursive;
 }
+body #About #scoreTable {
+  border: none;
+  background: transparent;
+  color: black;
+  box-shadow: none;
+}
+body #About #scoreTable table, body #About #scoreTable th, body #About #scoreTable td {
+  border-collapse: collapse;
+  padding: 10px;
+  width: 100%;
+}
+body #About #scoreTable th, body #About #scoreTable td {
+  width: 25%;
+  border: 2px solid black;
+}
+body #About #scoreTable thead th {
+  border-top: none;
+  border-left: none;
+}
+body #About #scoreTable thead :last-child {
+  border-right: none;
+}
+body #About #scoreTable tbody th {
+  border-left: none;
+  border-bottom: none;
+}
+body #About #scoreTable tbody td {
+  border-right: none;
+  border-bottom: none;
+}
 body #About .content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
   width: 60%;
   line-height: 1.5;
   text-align: center;
   padding-bottom: 20px;
+  background: white;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5);
 }
 body #About .content details {
   cursor: pointer;
@@ -174,9 +210,15 @@ body #About .content details[open] summary ~ * {
   animation: sweep 0.5s ease-in-out;
 }
 body #About .content details summary::before {
-  content: "Show Articles";
+  content: "Show Answer";
 }
 body #About .content details[open] summary::before {
+  content: "Hide Answer";
+}
+body #About .content details.articles summary::before {
+  content: "Show Articles";
+}
+body #About .content details.articles[open] summary::before {
   content: "Hide Articles";
 }
 @keyframes sweep {
@@ -192,30 +234,6 @@ body #About .content details[open] summary::before {
 body #About .content li {
   text-align: left;
   margin-bottom: 20px;
-}
-body #About .content table, body #About .content th, body #About .content td {
-  border-collapse: collapse;
-  padding: 10px;
-  width: 100%;
-}
-body #About .content th, body #About .content td {
-  width: 25%;
-  border: 2px solid black;
-}
-body #About .content thead th {
-  border-top: none;
-  border-left: none;
-}
-body #About .content thead :last-child {
-  border-right: none;
-}
-body #About .content tbody th {
-  border-left: none;
-  border-bottom: none;
-}
-body #About .content tbody td {
-  border-right: none;
-  border-bottom: none;
 }
 body #Contact {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='1000' preserveAspectRatio='none' viewBox='0 0 2000 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1125%26quot%3b)' fill='none'%3e%3crect width='2000' height='1000' x='0' y='0' fill='rgba(166%2c 166%2c 167%2c 1)'%3e%3c/rect%3e%3cpath d='M -407.83128926938747%2c377 C -274.43%2c427.2 -7.63%2c614.4 259.16871073061253%2c628 C 525.97%2c641.6 659.37%2c399 926.1687107306125%2c445 C 1192.97%2c491 1326.37%2c899.6 1593.1687107306125%2c858 C 1859.97%2c816.4 2178.8%2c280.2 2260.1687107306125%2c237 C 2341.53%2c193.8 2052.03%2c561 2000%2c642' stroke='rgba(79%2c 80%2c 83%2c 0.63)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -339.84767020181306%2c705 C -206.45%2c653.4 60.35%2c431.4 327.15232979818694%2c447 C 593.95%2c462.6 727.35%2c841.2 994.1523297981869%2c783 C 1260.95%2c724.8 1394.35%2c181.2 1661.1523297981869%2c156 C 1927.95%2c130.8 2260.38%2c615.8 2328.152329798187%2c657 C 2395.92%2c698.2 2065.63%2c421 2000%2c362' stroke='rgba(79%2c 80%2c 83%2c 0.63)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -876.5324377927699%2c545 C -743.13%2c458.2 -476.33%2c103.8 -209.53243779276985%2c111 C 57.27%2c118.2 190.67%2c526.8 457.4675622072301%2c581 C 724.27%2c635.2 857.67%2c324.4 1124.4675622072302%2c382 C 1391.27%2c439.6 1616.36%2c891.4 1791.4675622072302%2c869 C 1966.57%2c846.6 1958.29%2c389.8 2000%2c270' stroke='rgba(79%2c 80%2c 83%2c 0.63)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -776.3200575950962%2c332 C -642.92%2c399.2 -376.12%2c682.8 -109.32005759509619%2c668 C 157.48%2c653.2 290.88%2c269.2 557.6799424049038%2c258 C 824.48%2c246.8 957.88%2c569.8 1224.6799424049038%2c612 C 1491.48%2c654.2 1736.62%2c481.4 1891.6799424049038%2c469 C 2046.74%2c456.6 1978.34%2c533.8 2000%2c550' stroke='rgba(79%2c 80%2c 83%2c 0.63)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1125'%3e%3crect width='2000' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");

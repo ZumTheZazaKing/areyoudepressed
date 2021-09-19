@@ -158,36 +158,11 @@ body{
         h2{
             font-family: $titleFont;
         }
-        .content{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            font-family: Arial, Helvetica, sans-serif;
-            width: 60%;
-            line-height: 1.5;
-            text-align: center;
-            padding-bottom: 20px;
-            details{cursor: pointer;}
-            details[open] summary ~ *{
-                cursor: pointer;
-                transition: .2s ease-in;
-                animation:sweep .5s ease-in-out;
-            }
-            details summary::before{
-                content:"Show Articles"
-            }
-            details[open] summary::before{
-                content:"Hide Articles"
-            }
-            @keyframes sweep {
-                0% {opacity: 0; margin-left: -10px}
-                100% {opacity: 1; margin-left: 0px}
-            }
-            li{
-                text-align: left;
-                margin-bottom: 20px;
-            }
+        #scoreTable{
+            border: none;
+            background: transparent;
+            color: black;
+            box-shadow: none;
             table,th,td{
                 border-collapse: collapse;
                 padding: 10px;
@@ -216,6 +191,42 @@ body{
                     border-bottom: none;
                 }
             }
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            width: 60%;
+            line-height: 1.5;
+            text-align: center;
+            padding-bottom: 20px;
+            background: white;
+            box-shadow: 0 0 4px 2px rgba($color: #000000, $alpha: 0.5);
+            details{cursor: pointer;}
+            details[open] summary ~ *{
+                cursor: pointer;
+                transition: .2s ease-in;
+                animation:sweep .5s ease-in-out;
+            }
+            details summary::before{content:"Show Answer"}
+            details[open] summary::before{content:"Hide Answer"}
+            details.articles summary::before{content:"Show Articles"}
+            details.articles[open] summary::before{content:"Hide Articles"}
+            @keyframes sweep {
+                0% {opacity: 0; margin-left: -10px}
+                100% {opacity: 1; margin-left: 0px}
+            }
+            li{
+                text-align: left;
+                margin-bottom: 20px;
+            }
+            
         }
     }
 
