@@ -115,7 +115,82 @@
             "Severe",
             "Extremely Severe"
         ],
+        "resultTips":{
+            "depression":[
+                [
+                    "Your depression level is normal. That's a good thing! But you have to maintain it.\n",
+                    "It is best that you take measures in preventing yourself from attaining depression.\n",
+                    "Measures such as exercising regularly, avoiding toxic people and getting plenty of sleep.\n",
+                    "Wish you the best of luck!"
+                ],
+                [
+                    "Your depression level is mild. That's a stage higher than normal.\n",
+                    "But don't worry, it'll be alright. Just make sure to eat well and maintain a healthy weight.\n",
+                    "A healthy mind comes with a healthy body. Also, be sure to interact more with your friends and maintain the relationship."
+                ],
+                [
+                    "Your depression level seems to be moderate...for now.\n",
+                    "It's recommended that you stop doing activities such as communicating with the wrong people,\n",
+                    "eating an unbalanced diet and thinking about negative thoughts. Please do so for your own good"
+                ],
+                [
+                    "Your depression level has reached the stage of severe. That is not good.\n",
+                    "Small efforts to undo it will be futile. It is highly suggested that you talk with those\n",
+                    "who you can trust such as friends or loved ones about your ordeal or consult a medical professional\n",
+                    "such as a counselor or a therapist. Please do so if you wish for help."
+                ],
+                [
+                    "Your depression level is extremely severe. It is a must that you come in contact with a medical professional for assistance.\n",
+                    "If you're having any suicidal thoughts, please refrain from doing anything rash and contact your nation's suicide hotline.\n",
+                    "Remember, you are not alone."
+                ]
+            ],
+
+
+
+            "anxiety":[
+                [
+                    "Your anxiety level is normal. That's good because occasional anxiety is completely OK.\n",
+                    "Anxiety is a normal human experience. Don't let it stretch too far out.\n",
+                    "Wish you all the best! As long as you take measures to do so, you'll be alright.\n"
+                ],
+                [
+                    "Your anxiety level is mild. That's a bit over the average but you'll be alright as long as\n",
+                    "you make sure that it doesn't go out of your control. Write down your thoughts and take a walk\n",
+                    "from time to time. Do something that can calm you down or go to places with a relaxing atmosphere"
+                ],
+                [
+                    "Your anxiety level is moderate. It's highly suggested that you start taking precautions such as\n",
+                    "trying supplements, changing your diet and questioning your thought patterns. Your anxiety\n",
+                    "should be handled properly to prevent it from furthur growing to a scale that you might find difficult to manage"
+                ],
+                [
+                    "Your anxiety level is severe. It's gone up to the stage where it may disrupt your daily activities.\n",
+                    "You should try and focus on using better strategies for coping with anxiety such as identifying and\n",
+                    "learning to manage your triggers and adopting cognitive behavioral therapy (CBT). Of course, you can\n",
+                    "always ask your doctor about medications."
+                ],
+                [
+                    "Your anxiety level is extremely severe. At this point, your anxiety may start to become harmful.\n ",
+                    "There are times anxiety can get serious and turn into anxiety attacks that initially feel manageable and then gradually build up over a few hours.\n",
+                    "Worst case scenario, you can experience an anxiety and panic attack simultaneously. Identifying the signs\n",
+                    "is one thing but it is better that you seek attention from a medical professional"
+                ]
+            ],
+
+
+
+            "stress":[
+                [
+                    "Your stress level is normal. There's nothing much to say about that, to be honest.\n",
+                    "Just make sure that you dont't experience more than your mind can handle.\n",
+                    "Do that and you'll be able to maintain your normal stress level for a long time.\n",
+                    "Wish you all the success!"
+                ]
+            ]
+        },
         "returnButton":"Return"
+        
     }
     
 }

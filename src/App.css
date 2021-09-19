@@ -469,6 +469,11 @@ body #Result #advice .advice #body img {
 }
 body #Result #advice .advice #body p {
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
 }
 body #Result #returnButton {
   background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);

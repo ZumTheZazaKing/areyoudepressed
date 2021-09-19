@@ -42,6 +42,10 @@ export function Result(){
     const [anxietyImg, setAnxietyImg] = useState("");
     const [stressImg, setStressImg] = useState("");
 
+    const [depressionTips, setDepressionTips] = useState("");
+    const [anxietyTips, setAnxietyTips] = useState("");
+    const [stressTips, setStressTips] = useState("");
+
     const calcDepressionLevel = () => {
         if(depressionScore >= 0 && depressionScore <= 5){
             setDepressionLevel(currentLanguage.resultPage.results[0]);
@@ -187,7 +191,7 @@ export function Result(){
                 <h2>{currentLanguage.resultPage.depressionLabel}: <span className={depressionColor}>{depressionLevel}</span></h2>
                 <div id="body">
                     <LazyLoadImage placeholder={<CircularProgress/>} src={depressionImg} alt="reaction"/>
-                    <p>Lorem Ipsum</p>
+                    <p>{depressionTips}</p>
                 </div>
             </div>
 
@@ -195,7 +199,7 @@ export function Result(){
                 <h2>{currentLanguage.resultPage.anxietyLabel}: <span className={anxietyColor}>{anxietyLevel}</span></h2>
                 <div id="body">
                     <LazyLoadImage placeholder={<CircularProgress/>} src={anxietyImg} alt="reaction"/>
-                    <p>Lorem Ipsum</p>
+                    <p>{anxietyTips}</p>
                 </div>
             </div>
 
@@ -203,7 +207,7 @@ export function Result(){
                 <h2>{currentLanguage.resultPage.stressLabel}: <span className={stressColor}>{stressLevel}</span></h2>
                 <div id="body">
                     <LazyLoadImage placeholder={<CircularProgress/>} src={stressImg} alt="reaction"/>
-                    <p>Lorem Ipsum</p>
+                    <p>{stressTips}</p>
                 </div>
             </div>
         </div>
