@@ -39,6 +39,7 @@ body{
         top: 0;
         left: 0;
         #links{
+            display: flex;
             span{
                 margin-right: 10px;
                 margin-left: 10px;
@@ -47,11 +48,40 @@ body{
                 font-weight: 600;
                 text-transform: uppercase;
             }
+            #hamburger{
+                display: none;
+            }
+        }
+        #mobile{
+            display: none;
+            position: absolute;
+            top: 10vh;
+            left: 0;
+            background: whitesmoke;
+            width: 100%;
+            padding: 20px 10px;
+            text-align: center;
+            box-shadow: 0 6px 5px 1px rgba($color: #000000, $alpha: 0.5);
+            z-index:0;
+            span{
+                font-family: $bodyFont;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 18px;
+            }
+            hr{
+                height: 2px;
+                border: none;
+                background: black;
+            }
         }
         h3{
             margin: 0;
             padding: 0;
             font-family: $titleFont;
+        }
+        #mobile.show{
+            display: block !important;
         }
     }
  
@@ -473,6 +503,17 @@ body{
 }
 
 @media only screen and (max-width: 800px) {
+
+    #Navbar{
+        #links{
+            span{
+                display: none !important;
+            }
+            #hamburger{
+                display: block !important;
+            }
+        }
+    }
 
     #Main{
         #image{

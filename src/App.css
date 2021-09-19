@@ -35,6 +35,9 @@ body #Navbar {
   top: 0;
   left: 0;
 }
+body #Navbar #links {
+  display: flex;
+}
 body #Navbar #links span {
   margin-right: 10px;
   margin-left: 10px;
@@ -43,10 +46,39 @@ body #Navbar #links span {
   font-weight: 600;
   text-transform: uppercase;
 }
+body #Navbar #links #hamburger {
+  display: none;
+}
+body #Navbar #mobile {
+  display: none;
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  background: whitesmoke;
+  width: 100%;
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 0 6px 5px 1px rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+body #Navbar #mobile span {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+body #Navbar #mobile hr {
+  height: 2px;
+  border: none;
+  background: black;
+}
 body #Navbar h3 {
   margin: 0;
   padding: 0;
   font-family: "Patua One", cursive;
+}
+body #Navbar #mobile.show {
+  display: block !important;
 }
 body #Main {
   background: black;
@@ -444,6 +476,13 @@ body #Result #returnButton:hover {
 }
 
 @media only screen and (max-width: 800px) {
+  #Navbar #links span {
+    display: none !important;
+  }
+  #Navbar #links #hamburger {
+    display: block !important;
+  }
+
   #Main #image {
     width: 200vw !important;
   }
