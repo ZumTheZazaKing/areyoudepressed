@@ -207,6 +207,7 @@ body{
             color: white;
             display: flex;
             flex-direction: column;
+            width: 60%;
             h1{
                 margin: 0;
                 margin-top: 20px;
@@ -222,6 +223,27 @@ body{
             form{
                 display: flex;
                 flex-direction: column;
+                .input{
+                    background: white;
+                    margin: 10px 0;
+                    border-radius: 5px;
+                }
+                input[type=submit]{
+                    padding: 10px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    background-color: #1976d2;
+                    color: white;
+                    box-shadow: 0 5px #0f5296;
+                }
+                input[type=submit]:active{
+                    box-shadow: 0 2.5px #0f5296;
+                    transform: translateY(2.5px);
+                }
             }
         }
     }
@@ -488,6 +510,12 @@ body{
     #About{
         .content{
             width: 100% !important;
+        }
+    }
+
+    #Contact{
+        #email{
+            width: 90% !important;
         }
     }
 

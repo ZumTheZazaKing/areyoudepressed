@@ -53,7 +53,10 @@
     },
     "contactPage":{
         "title":"Contact Us",
-        "description":"We'd love to hear from you"
+        "description":"We'd love to hear from you",
+        "sendButton":"Send",
+        "emailSend":"Email sent",
+        "emailError":"Something went wrong"
     },
 
 
