@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 
 import CircularProgress from '@mui/material/CircularProgress';
 import Button from '@material-ui/core/Button';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import Heart from '../Images/ResultReactions/heart.jpeg';
 import SmileOpen from '../Images/ResultReactions/smileopen.png';
@@ -185,7 +186,7 @@ export function Result(){
             <div className="advice">
                 <h2>{currentLanguage.resultPage.depressionLabel}: <span className={depressionColor}>{depressionLevel}</span></h2>
                 <div id="body">
-                    <img src={depressionImg} alt="reaction"/>
+                    <LazyLoadImage placeholder={<CircularProgress/>} src={depressionImg} alt="reaction"/>
                     <p>Lorem Ipsum</p>
                 </div>
             </div>
@@ -193,7 +194,7 @@ export function Result(){
             <div className="advice">
                 <h2>{currentLanguage.resultPage.anxietyLabel}: <span className={anxietyColor}>{anxietyLevel}</span></h2>
                 <div id="body">
-                    <img src={anxietyImg} alt="reaction"/>
+                    <LazyLoadImage placeholder={<CircularProgress/>} src={anxietyImg} alt="reaction"/>
                     <p>Lorem Ipsum</p>
                 </div>
             </div>
@@ -201,7 +202,7 @@ export function Result(){
             <div className="advice">
                 <h2>{currentLanguage.resultPage.stressLabel}: <span className={stressColor}>{stressLevel}</span></h2>
                 <div id="body">
-                    <img src={stressImg} alt="reaction"/>
+                    <LazyLoadImage placeholder={<CircularProgress/>} src={stressImg} alt="reaction"/>
                     <p>Lorem Ipsum</p>
                 </div>
             </div>
