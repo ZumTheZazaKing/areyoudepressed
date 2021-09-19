@@ -248,6 +248,7 @@ body #Contact #email p {
 body #Contact #email form {
   display: flex;
   flex-direction: column;
+  z-index: 0;
 }
 body #Contact #email form .input {
   background: white;
