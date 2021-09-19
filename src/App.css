@@ -59,7 +59,7 @@ body #Navbar #mobile {
   padding: 20px 10px;
   text-align: center;
   box-shadow: 0 6px 5px 1px rgba(0, 0, 0, 0.5);
-  z-index: 0;
+  z-index: 2;
 }
 body #Navbar #mobile span {
   font-family: "Quicksand", sans-serif;
@@ -78,7 +78,7 @@ body #Navbar h3 {
   font-family: "Patua One", cursive;
 }
 body #Navbar #mobile.show {
-  display: block !important;
+  display: none;
 }
 body #Main {
   background: black;
@@ -105,7 +105,6 @@ body #Main #point {
 }
 body #Main p {
   font-family: "Quicksand", sans-serif;
-  z-index: 1;
 }
 body #Main #title {
   margin: 0;
@@ -113,7 +112,6 @@ body #Main #title {
   font-family: "Arvo", serif;
   font-size: 30px;
   text-align: center;
-  z-index: 1;
 }
 body #Main #button {
   margin: 10px;
@@ -127,7 +125,6 @@ body #Main #button {
   border-radius: 10px;
   display: block;
   background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
-  z-index: 1;
 }
 body #Main #button:hover {
   background-position: right center;
@@ -227,15 +224,14 @@ body #Contact {
   background-attachment: fixed;
   height: 90vh;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  padding-top: 20px;
 }
 body #Contact #email {
   color: white;
   display: flex;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
   width: 60%;
 }
 body #Contact #email h1 {
@@ -480,6 +476,9 @@ body #Result #returnButton:hover {
     display: none !important;
   }
   #Navbar #links #hamburger {
+    display: block !important;
+  }
+  #Navbar #mobile.show {
     display: block !important;
   }
 
