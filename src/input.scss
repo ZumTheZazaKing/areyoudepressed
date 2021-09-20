@@ -42,6 +42,20 @@ body{
         img{
             width: 250px;
         }
+        select{
+            background-color: transparent;
+            border: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            font-weight:bold;
+            color: grey;
+            text-align: center;
+        }
+        select::-ms-expand {
+            display: none;
+        }
         #links{
             display: flex;
             span{
@@ -101,6 +115,7 @@ body{
         background-size: cover;
         background-attachment: fixed;
         transition: 1s ease-in;
+        padding: 10px;
         #point{
             display: flex;
             justify-content: center;
@@ -113,6 +128,7 @@ body{
         }
         p{
             font-family: $bodyFont;
+            text-align: center;
         }
         #title{
             margin: 0;

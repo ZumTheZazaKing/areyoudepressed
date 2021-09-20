@@ -1,18 +1,18 @@
 {
     "navbar":{
-        "home":"Home",
+        "home":"Utama",
         "about":"About",
         "contact":"Contact",
         "hotlines":"Hotlines"
     },
     "mainPage":{
         "title":"Are You Depressed?",
-        "description":"Make some time and take this test",
-        "button":"Take Test"
+        "description":"Luangkan sedikit masa dan mengambil ujian ini",
+        "button":"Ambil Ujian"
     },
     "aboutPage":{
         "contentOne":{
-            "title":"What is this?",
+            "title":"Apakah ini?",
             "body":[
                 "With the rise of a new foe, humanity suffers an everlasting pandemic, spreading like wildfire with the slyness of a fox.\n",
                 "The said pandemic has caused many world leaders to take action, ceasing the rights of everyone's ability to roam freely on land, sea and sky.\n",
@@ -23,9 +23,9 @@
                 "The web app is called "
             ]
         },
-        "starting":"We use DASS-21 for the test",
+        "starting":"Kita menggunakan DASS-21 untuk ujian.",
         "contentTwo":{
-            "title":"What is DASS-21?",
+            "title":"Apakah itu DASS-21?",
             "body":[
                 "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed tomeasure the emotional states of depression, anxiety and stress.",
                 "Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content.",
@@ -35,9 +35,9 @@
             ]
         },
         "contentThree":{
-            "title":"Is DASS-21 reliable?",
+            "title":"Adakah DASS-21 tepat?",
             "body":[
-                "The answer is; Yes definitely. Below are a few articles to prove that DASS is valid and reliable.",
+                "Jawapannya YA, ini dibuktikan oleh hasil kajian yang banyak seperti disenaraikan di bawah.",
                 {"articles":[
                     "Lovibond SH, Lovibond PF. Manual for the Depression Anxiety Stress Scales. 2. Sydney: Psychology Foundation of Australia; 1995.",
                     "Lovibond PF, Lovibond SH. The structure of negative emotional states: comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories. Behav Res Ther. 1995;33(3):335–343.",
@@ -49,19 +49,19 @@
             ]
         },
         "contentFour":{
-            "title":"Score Interpretation"
+            "title":"Interpretasi Skor"
         }
     },
     "contactPage":{
-        "title":"Contact Us",
-        "description":"We'd love to hear from you",
-        "sendButton":"Send",
-        "emailSend":"Email sent",
-        "emailError":"Something went wrong"
+        "title":"Hubungi Kami",
+        "description":"Kami ingin mendengar daripada anda",
+        "sendButton":"Hantar",
+        "emailSend":"Berjaya",
+        "emailError":"Tidak Berjaya"
     },
     "hotlinesPage":{
-        "title":"International Hotlines",
-        "description":"If you or someone you know is suicidal, call one of the numbers below. If someone is in IMMEDIATE danger, please call your local emergency number e.g. 911 in the US."
+        "title":"Talian Hotline Antarabangsa",
+        "description":"Sekiranya anda atau seseorang yang anda kenal ingin bunuh diri, hubungi salah satu nombor di bawah. Sekiranya seseorang berada dalam bahaya SEGERA, sila hubungi nombor kecemasan tempatan anda, e.g. 911 di US."
     },
 
 
@@ -78,13 +78,14 @@
 
 
     "rulesPage":{
-        "title":"Rules",
+        "back":"Kembali",
+        "title":"Peraturan",
         "rules":[
             "Please read the questions and pick an answer that best suits your condition for the PAST WEEK",
             "There are no right and wrong answers, so don't worry about it",
             "DON'T take too long answering any of the questions"
         ],
-        "button":"Start"
+        "button":"MULA"
     },
     "quizPage":{
         "questions":[

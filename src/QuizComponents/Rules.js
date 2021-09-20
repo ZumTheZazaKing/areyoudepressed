@@ -33,7 +33,7 @@ export function Rules(){
             {currentLanguage.rulesPage.button}
         </Button>
         <Button id="backButton" onClick={() => back()}>
-            Back
+            {currentLanguage.rulesPage.back}
         </Button>
     </div>)
 }

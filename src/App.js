@@ -4,6 +4,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 
 import { Context } from "./Contexts/Context";
 import en from './translations/en.json';
+import my from './translations/my.json';
 
 const Main = lazy(() => import('./MainComponents/Main').then(module => ({default:module.Main})));
 const Navbar = lazy(() => import('./MainComponents/Navbar').then(module => ({default:module.Navbar})));
@@ -34,6 +35,8 @@ function App() {
   useEffect(() => {
     if(language === "en"){
       setCurrentLanguage(en)
+    } else if (language === "my"){
+      setCurrentLanguage(my)
     }
   },[language])
 
@@ -45,7 +48,7 @@ function App() {
 
             <Context.Provider value={{
               en,
-              currentLanguage,
+              currentLanguage, setLanguage, language,
               showNav, setShowNav,
               showAbout, setShowAbout,
               showContact, setShowContact,

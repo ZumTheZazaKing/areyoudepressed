@@ -78,6 +78,7 @@
 
 
     "rulesPage":{
+        "back":"Back",
         "title":"Rules",
         "rules":[
             "Please read the questions and pick an answer that best suits your condition for the PAST WEEK",

@@ -11,7 +11,7 @@ export function Navbar(){
 
     const history = useHistory();
 
-    let { currentLanguage, setShowAbout, setShowContact, setShowHotlines } = useContext(Context);
+    let { currentLanguage, setLanguage, language, setShowAbout, setShowContact, setShowHotlines } = useContext(Context);
 
     const [mobileClass, setMobileClass] = useState("");
 
@@ -47,6 +47,10 @@ export function Navbar(){
 
     return (<div id="Navbar">
         <img src={Logo} alt=""/>
+        <select value={language} onChange={(e) => setLanguage(e.target.value)}>
+            <option value="en">English</option>
+            <option value="my">Malay</option>
+        </select>
         <div id="links">
             <span onClick={() => goHome()}>{currentLanguage.navbar.home}</span>
             <span onClick={() => goAbout()}>{currentLanguage.navbar.about}</span>
