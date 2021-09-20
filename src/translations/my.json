@@ -1,0 +1,237 @@
+{
+    "navbar":{
+        "home":"Home",
+        "about":"About",
+        "contact":"Contact",
+        "hotlines":"Hotlines"
+    },
+    "mainPage":{
+        "title":"Are You Depressed?",
+        "description":"Make some time and take this test",
+        "button":"Take Test"
+    },
+    "aboutPage":{
+        "contentOne":{
+            "title":"What is this?",
+            "body":[
+                "With the rise of a new foe, humanity suffers an everlasting pandemic, spreading like wildfire with the slyness of a fox.\n",
+                "The said pandemic has caused many world leaders to take action, ceasing the rights of everyone's ability to roam freely on land, sea and sky.\n",
+                "The actions were solely to deter the uprising of the new enemy, COVID-19, however, the effects that it would take on some or many individuals were dreary.\n",
+                "With  the lack of communication and interaction with those of the same species, humans laid dormant in their homes, taking a toll on those who find it sickening.\n",
+                "This directly impacts their mental health giving them issues such as depression, anxiety and stress.\n",
+                "As to recognise those who are victims to the mental impact the enemy has brought, we developed a web app that uses DASS-21 so people can assess their mental health easily.\n",
+                "The web app is called "
+            ]
+        },
+        "starting":"We use DASS-21 for the test",
+        "contentTwo":{
+            "title":"What is DASS-21?",
+            "body":[
+                "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed tomeasure the emotional states of depression, anxiety and stress.",
+                "Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content.",
+                "The depression scale assesses dysphoria, hopelessness, devaluation of life, self-deprecation, lack of interest / involvement, anhedonia and inertia.",
+                "The anxiety scale assesses autonomic arousal, skeletal muscle effects, situational anxiety, and subjective experience of anxious affect.",
+                "Scores for depression, anxiety and stress are calculated by summing the scores for the relevant items."
+            ]
+        },
+        "contentThree":{
+            "title":"Is DASS-21 reliable?",
+            "body":[
+                "The answer is; Yes definitely. Below are a few articles to prove that DASS is valid and reliable.",
+                {"articles":[
+                    "Lovibond SH, Lovibond PF. Manual for the Depression Anxiety Stress Scales. 2. Sydney: Psychology Foundation of Australia; 1995.",
+                    "Lovibond PF, Lovibond SH. The structure of negative emotional states: comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories. Behav Res Ther. 1995;33(3):335–343.",
+                    "Ng F, Trauer T, Dodd S, Callaly T, Campbell S, Berk M. The validity of the 21‐item version of the Depression Anxiety Stress Scales as a routine clinical outcome measure. Acta Neuropsychiatrica. 2007;19(5):304–310",
+                    "Brown TA, Chorpita BF, Korotitsch W, Barlow DH. Psychometric properties of the Depression Anxiety Stress Scales (DASS) in clinical samples. Behav Res Ther. 1997;35(1):79–89.",
+                    "Antony MM, Bieling PJ, Cox BJ, Enns MW, Swinson RP. Psychometric properties of the 42-item and 21-item versions of the Depression Anxiety Stress Scales in clinical groups and a community sample. Psychol Assess. 1998;10(2):176–181.",
+                    "Henry JD, Crawford JR. The short-form version of the Depression Anxiety Stress Scales (DASS-21): Construct validity and normative data in a large non-clinical sample. Br J Clin Psychol. 2005;44:227–239."
+                ]}
+            ]
+        },
+        "contentFour":{
+            "title":"Score Interpretation"
+        }
+    },
+    "contactPage":{
+        "title":"Contact Us",
+        "description":"We'd love to hear from you",
+        "sendButton":"Send",
+        "emailSend":"Email sent",
+        "emailError":"Something went wrong"
+    },
+    "hotlinesPage":{
+        "title":"International Hotlines",
+        "description":"If you or someone you know is suicidal, call one of the numbers below. If someone is in IMMEDIATE danger, please call your local emergency number e.g. 911 in the US."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "rulesPage":{
+        "title":"Rules",
+        "rules":[
+            "Please read the questions and pick an answer that best suits your condition for the PAST WEEK",
+            "There are no right and wrong answers, so don't worry about it",
+            "DON'T take too long answering any of the questions"
+        ],
+        "button":"Start"
+    },
+    "quizPage":{
+        "questions":[
+            {"text":"I found it hard to wind down", "type":"stress"},
+            {"text":"I was aware of dryness of my mouth", "type":"anxiety"},
+            {"text":"I couldn't seem to experience any positive feeling at all", "type":"depression"},
+            {"text":"I experienced breathing difficulty (e.g excessively rapid breathing, breathlessness in the absence of physical exertion)", "type":"anxiety"},
+            {"text":"I found it difficult to work up the initiative to do things", "type":"depression"},
+            {"text":"I tended to over-react to situations", "type":"stress"},
+            {"text":"I experienced trembling (e.g in the hands)", "type":"anxiety"},
+            {"text":"I felt that I was using a lot of nervous energy", "type":"stress"},
+            {"text":"I was worried about situations in which I might panic and make a fool of myself", "type":"anxiety"},
+            {"text":"I felt that I had nothing to look forward to", "type":"depression"},
+            {"text":"I found myself getting agitated", "type":"stress"},
+            {"text":"I found it difficult to relax", "type":"stress"},
+            {"text":"I felt down-hearted and blue", "type":"depression"},
+            {"text":"I wan intolerant of anything that kept me from getting on with what I was doing", "type":"stress"},
+            {"text":"I felt I was close to panic", "type":"anxiety"},
+            {"text":"I was unable to become enthusiastic about anything", "type":"depression"},
+            {"text":"I felt I wasn't worth much as a person", "type":"depression"},
+            {"text":"I felt that I was rather touchy", "type":"stress"},
+            {"text":"I was aware of the action of my heart in the absence of physical exertion (e.g sense of heart rate increase, heart missing a beat)", "type":"anxiety"},
+            {"text":"I felt scared without any good reason", "type":"anxiety"},
+            {"text":"I felt that life was meaningless", "type":"depression"}
+        ],
+        "options":[
+            {"text":"Never", "value":0},
+            {"text":"Rarely","value":1},
+            {"text":"Frequent","value":2},
+            {"text":"Very often", "value":3}
+        ],
+        "button":"Next"
+    },
+    "resultPage":{
+        "title":"Results",
+        "depressionLabel":"Depression",
+        "anxietyLabel":"Anxiety",
+        "stressLabel":"Stress",
+        "results":[
+            "Normal",
+            "Mild",
+            "Moderate",
+            "Severe",
+            "Extremely Severe"
+        ],
+        "resultTips":{
+            "depression":[
+                [
+                    "Your depression level is normal. That's a good thing! But you have to maintain it.\n",
+                    "It is best that you take measures in preventing yourself from attaining depression.\n",
+                    "Measures such as exercising regularly, avoiding toxic people and getting plenty of sleep.\n",
+                    "Wish you the best of luck!"
+                ],
+                [
+                    "Your depression level is mild. That's a stage higher than normal.\n",
+                    "But don't worry, it'll be alright. Just make sure to eat well and maintain a healthy weight.\n",
+                    "A healthy mind comes with a healthy body. Also, be sure to interact more with your friends and maintain a healthy relationship."
+                ],
+                [
+                    "Your depression level seems to be moderate...for now.\n",
+                    "It's recommended that you stop doing activities such as communicating with the wrong people,\n",
+                    "eating an unbalanced diet and thinking about negative thoughts. Put a halt to anything that can\n",
+                    "cause your depression to grow. Also, be sure to make some time for yourself to talk with yourself."
+                ],
+                [
+                    "Your depression level has reached the stage of severe. That is not good.\n",
+                    "Small efforts to undo it will be futile. It is highly suggested that you talk with those\n",
+                    "who you can trust such as friends or loved ones about your ordeal or consult a medical professional\n",
+                    "such as a counselor or a therapist. Please do so if you wish for help."
+                ],
+                [
+                    "Your depression level is extremely severe. It is a must that you come in contact with a medical professional for assistance.\n",
+                    "If you're having any suicidal thoughts, please refrain from doing anything rash and contact your local suicide hotline.\n",
+                    "Remember, you are not alone."
+                ]
+            ],
+
+
+
+            "anxiety":[
+                [
+                    "Your anxiety level is normal. That's good because occasional anxiety is completely OK.\n",
+                    "Anxiety is a normal human experience. Don't let it stretch too far out.\n",
+                    "Wish you all the best! As long as you take measures to do so, you'll be alright.\n"
+                ],
+                [
+                    "Your anxiety level is mild. That's a bit over the average but you'll be alright as long as\n",
+                    "you make sure that it doesn't go out of your control. Write down your thoughts and take a walk\n",
+                    "from time to time. Do something that can calm you down or go to places with a relaxing atmosphere."
+                ],
+                [
+                    "Your anxiety level is moderate. It's highly suggested that you start taking precautions such as\n",
+                    "trying supplements, changing your diet and questioning your thought patterns. Your anxiety\n",
+                    "should be handled properly to prevent it from furthur growing to a scale that you might find difficult to manage."
+                ],
+                [
+                    "Your anxiety level is severe. It's gone up to the stage where it may disrupt your daily activities.\n",
+                    "You should try and focus on using better strategies for coping with anxiety such as identifying and\n",
+                    "learning to manage your triggers and adopting cognitive behavioral therapy (CBT). Of course, you can\n",
+                    "always ask your doctor about medications."
+                ],
+                [
+                    "Your anxiety level is extremely severe. At this point, your anxiety may start to become harmful.\n ",
+                    "There are times anxiety can get serious and turn into anxiety attacks that initially feel manageable and then gradually build up over a few hours.\n",
+                    "Worst case scenario, you can experience an anxiety and panic attack simultaneously. Identifying the signs\n",
+                    "is one thing but it is better that you seek attention from a medical professional."
+                ]
+            ],
+
+
+
+            "stress":[
+                [
+                    "Your stress level is normal. Stress is a normal psychological and physical reaction\n", 
+                    "to positive or negative situations in your life, such as a new job or the death of a loved one.\n",
+                    "Just make sure that it doesn't become more than you can handle.\n",
+                    "Do that and you'll be able to maintain your normal stress level for a long time.\n",
+                    "Wish you all the success!"
+                ],
+                [
+                    "Your stress level is mild. A bit higher than what's normal but not strong enough to make an impact\n",
+                    "on your daily life. Some day-to-day stress is normal but we all need to know when to close our eyes\n",
+                    "and take a deep breath when we feel tension rising. Remember to take care of yourself with plenty of sleep,\n",
+                    "limiting alcohol and stimulants and giving yourself a break when you feel stressed out."
+                ],
+                [
+                    "Your stress level is moderate. It's recommended that you start taking steps to cope with stress such as\n",
+                    "balancing work and home time, carving out hobby time and resting when you really need it. It's to make\n",
+                    "sure that your stress doesn't reach the level where it can start to harm you and effect those around you.\n",
+                    "All in all, take better care of yourself. You can't take care of other matters if you can't even take care of yourself."
+                ],
+                [
+                    "Your stress level is severe. It's time you start taking things seriously and really put an effort to relieve yourself.\n",
+                    "Connect with supportive people who can listen and help you. Perhaps, if the oppurtunity arises, take a vacation\n",
+                    "and get away from it all. Remember to go easy on yourself and things around you. Listen to some music for that extra\n",
+                    "stress relief and refer to a doctor for medication."
+                ],
+                [
+                    "Your stress level is extremely severe. You probably experience headaches from time to time and a decrease\n",
+                    "in energy along with insomnia. Your stress has reached the stage where it's now harmful to yourself and it may\n",
+                    "effect others as well. It's best that you stop taking tobacco and stimulants if you are and seek attention\n",
+                    "from a medical professional."
+                ]
+            ]
+        },
+        "returnButton":"Return"
+        
+    }
+    
+}
