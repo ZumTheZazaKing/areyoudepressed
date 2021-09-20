@@ -51,26 +51,35 @@ export function Result(){
             setDepressionLevel(currentLanguage.resultPage.results[0]);
             setDepressionColor("secondary");
             setDepressionImg(Heart);
+            setDepressionTips(currentLanguage.resultPage.resultTips.depression[0]);
 
         } else if(depressionScore >= 6 && depressionScore <= 7){
             setDepressionLevel(currentLanguage.resultPage.results[1]);
             setDepressionColor("primary");
             setDepressionImg(SmileOpen);
+            setDepressionTips(currentLanguage.resultPage.resultTips.depression[1]);
+
 
         } else if(depressionScore >= 8 && depressionScore <= 10){
             setDepressionLevel(currentLanguage.resultPage.results[2]);
             setDepressionColor("success");
             setDepressionImg(SmileClose);
+            setDepressionTips(currentLanguage.resultPage.resultTips.depression[2]);
+
 
         } else if(depressionScore >= 11 && depressionScore <= 14){
             setDepressionLevel(currentLanguage.resultPage.results[3]);
             setDepressionColor("warning");
             setDepressionImg(Sad)
+            setDepressionTips(currentLanguage.resultPage.resultTips.depression[3]);
+
 
         } else {
             setDepressionLevel(currentLanguage.resultPage.results[4]);
             setDepressionColor("error");
             setDepressionImg(Danger)
+            setDepressionTips(currentLanguage.resultPage.resultTips.depression[4]);
+
         }
     }
 
@@ -79,26 +88,32 @@ export function Result(){
             setAnxietyLevel(currentLanguage.resultPage.results[0]);
             setAnxietyColor("secondary");
             setAnxietyImg(Heart);
+            setAnxietyTips(currentLanguage.resultPage.resultTips.anxiety[0]);
+
 
         } else if(anxietyScore >= 5 && anxietyScore <= 6){
             setAnxietyLevel(currentLanguage.resultPage.results[1]);
             setAnxietyColor("primary");
             setAnxietyImg(SmileOpen);
+            setAnxietyTips(currentLanguage.resultPage.resultTips.anxiety[1]);
 
         } else if(anxietyScore >= 7 && anxietyScore <= 8){
             setAnxietyLevel(currentLanguage.resultPage.results[2]);
             setAnxietyColor("success");
             setAnxietyImg(SmileClose);
+            setAnxietyTips(currentLanguage.resultPage.resultTips.anxiety[2]);
 
         } else if(anxietyScore >= 9 && anxietyScore <= 10){
             setAnxietyLevel(currentLanguage.resultPage.results[3]);
             setAnxietyColor("warning");
             setAnxietyImg(Sad);
+            setAnxietyTips(currentLanguage.resultPage.resultTips.anxiety[3]);
 
         } else {
             setAnxietyLevel(currentLanguage.resultPage.results[4]);
             setAnxietyColor("error");
             setAnxietyImg(Danger);
+            setAnxietyTips(currentLanguage.resultPage.resultTips.anxiety[4]);
         }
     }
 
@@ -107,26 +122,31 @@ export function Result(){
             setStressLevel(currentLanguage.resultPage.results[0]);
             setStressColor("secondary");
             setStressImg(Heart);
+            setStressTips(currentLanguage.resultPage.resultTips.stress[0]);
 
         } else if(stressScore >= 8 && stressScore <= 9){
             setStressLevel(currentLanguage.resultPage.results[1]);
             setStressColor("primary");
             setStressImg(SmileOpen);
+            setStressTips(currentLanguage.resultPage.resultTips.stress[1]);
 
         } else if(stressScore >= 10 && stressScore <= 13){
             setStressLevel(currentLanguage.resultPage.results[2]);
             setStressColor("success");
             setStressImg(SmileClose);
+            setStressTips(currentLanguage.resultPage.resultTips.stress[2]);
 
         } else if(stressScore >= 14 && stressScore <= 17){
             setStressLevel(currentLanguage.resultPage.results[3]);
             setStressColor("warning");
             setStressImg(Sad);
+            setStressTips(currentLanguage.resultPage.resultTips.stress[3]);
 
         } else {
             setStressLevel(currentLanguage.resultPage.results[4]);
             setStressColor("error");
             setStressImg(Danger);
+            setStressTips(currentLanguage.resultPage.resultTips.stress[4]);
         }
     }
 

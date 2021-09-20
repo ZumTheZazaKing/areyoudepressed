@@ -126,12 +126,13 @@
                 [
                     "Your depression level is mild. That's a stage higher than normal.\n",
                     "But don't worry, it'll be alright. Just make sure to eat well and maintain a healthy weight.\n",
-                    "A healthy mind comes with a healthy body. Also, be sure to interact more with your friends and maintain the relationship."
+                    "A healthy mind comes with a healthy body. Also, be sure to interact more with your friends and maintain a healthy relationship."
                 ],
                 [
                     "Your depression level seems to be moderate...for now.\n",
                     "It's recommended that you stop doing activities such as communicating with the wrong people,\n",
-                    "eating an unbalanced diet and thinking about negative thoughts. Please do so for your own good"
+                    "eating an unbalanced diet and thinking about negative thoughts. Put a halt to anything that can\n",
+                    "cause your depression to grow. Also, be sure to make some time for yourself to talk with yourself."
                 ],
                 [
                     "Your depression level has reached the stage of severe. That is not good.\n",
@@ -157,12 +158,12 @@
                 [
                     "Your anxiety level is mild. That's a bit over the average but you'll be alright as long as\n",
                     "you make sure that it doesn't go out of your control. Write down your thoughts and take a walk\n",
-                    "from time to time. Do something that can calm you down or go to places with a relaxing atmosphere"
+                    "from time to time. Do something that can calm you down or go to places with a relaxing atmosphere."
                 ],
                 [
                     "Your anxiety level is moderate. It's highly suggested that you start taking precautions such as\n",
                     "trying supplements, changing your diet and questioning your thought patterns. Your anxiety\n",
-                    "should be handled properly to prevent it from furthur growing to a scale that you might find difficult to manage"
+                    "should be handled properly to prevent it from furthur growing to a scale that you might find difficult to manage."
                 ],
                 [
                     "Your anxiety level is severe. It's gone up to the stage where it may disrupt your daily activities.\n",
@@ -174,7 +175,7 @@
                     "Your anxiety level is extremely severe. At this point, your anxiety may start to become harmful.\n ",
                     "There are times anxiety can get serious and turn into anxiety attacks that initially feel manageable and then gradually build up over a few hours.\n",
                     "Worst case scenario, you can experience an anxiety and panic attack simultaneously. Identifying the signs\n",
-                    "is one thing but it is better that you seek attention from a medical professional"
+                    "is one thing but it is better that you seek attention from a medical professional."
                 ]
             ],
 
@@ -182,10 +183,35 @@
 
             "stress":[
                 [
-                    "Your stress level is normal. There's nothing much to say about that, to be honest.\n",
-                    "Just make sure that you dont't experience more than your mind can handle.\n",
+                    "Your stress level is normal. Stress is a normal psychological and physical reaction\n", 
+                    "to positive or negative situations in your life, such as a new job or the death of a loved one.\n",
+                    "Just make sure that it doesn't become more than you can handle.\n",
                     "Do that and you'll be able to maintain your normal stress level for a long time.\n",
                     "Wish you all the success!"
+                ],
+                [
+                    "Your stress level is mild. A bit higher than what's normal but not strong enough to make an impact\n",
+                    "on your daily life. Some day-to-day stress is normal but we all need to know when to close our eyes\n",
+                    "and take a deep breath when we feel tension rising. Remember to take care of yourself with plenty of sleep,\n",
+                    "limiting alcohol and stimulants and giving yourself a break when you feel stressed out."
+                ],
+                [
+                    "Your stress level is moderate. It's recommended that you start taking steps to cope with stress such as\n",
+                    "balancing work and home time, carving out hobby time and resting when you really need it. It's to make\n",
+                    "sure that your stress doesn't reach the level where it can start to harm you and effect those around you.\n",
+                    "All in all, take better care of yourself. You can't take care of other matters if you can't even take care of yourself."
+                ],
+                [
+                    "Your stress level is severe. It's time you start taking things seriously and really put an effort to relieve yourself.\n",
+                    "Connect with supportive people who can listen and help you. Perhaps, if the oppurtunity arises, take a vacation\n",
+                    "and get away from it all. Remember to go easy on yourself and things around you. Listen to some music for that extra\n",
+                    "stress relief and refer to a doctor for medication."
+                ],
+                [
+                    "Your stress level is extremely severe. You probably experience headaches from time to time and a decrease\n",
+                    "in energy along with insomnia. Your stress has reached the stage where it's now harmful to yourself and it may\n",
+                    "effect others as well. It's best that you stop taking tobacco and stimulants if you are and seek attention\n",
+                    "from a medical professional."
                 ]
             ]
         },
