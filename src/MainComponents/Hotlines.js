@@ -1,5 +1,7 @@
 import { useEffect, useContext } from "react";
 import { useHistory } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import CircularProgress from '@mui/material/CircularProgress';
 
 import { Context } from "../Contexts/Context";
 
@@ -68,7 +70,7 @@ export function Hotlines(){
         <p id="desc">{currentLanguage.hotlinesPage.description}</p>
         <br/>
         {hotlines && hotlines.map((hotline,index) => {return <div key={index} className="hotline">
-            <img src={`https://www.countryflags.io/${hotline.code}/shiny/64.png`} alt=""/>
+            <LazyLoadImage src={`https://www.countryflags.io/${hotline.code}/shiny/64.png`} placeholder={<CircularProgress disableShrink={true}/>} alt=""/>
             <div id="main">
                 <p><b>{hotline.name}</b></p>
                 <p>Emergency: <a href={`tel:${hotline.emergency}`}>{hotline.emergency}</a></p>
