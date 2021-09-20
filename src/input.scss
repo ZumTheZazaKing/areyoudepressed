@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 $titleFont:'Patua One', cursive;
+$otherTitleFont:'Montserrat', sans-serif;
 $bodyFont:'Quicksand', sans-serif;
 
 *{
@@ -249,7 +250,7 @@ body{
                 margin: 0;
                 padding: 0;
                 text-transform: uppercase;
-                font-family: 'Montserrat', sans-serif;
+                font-family: $otherTitleFont;
                 text-align: center;
             }
             p{
@@ -280,6 +281,52 @@ body{
                 input[type=submit]:active{
                     box-shadow: 0 2.5px #0f5296;
                     transform: translateY(2.5px);
+                }
+            }
+        }
+    }
+
+
+
+    #Hotlines{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font-family: $otherTitleFont;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        #desc{
+            text-align: center;
+            line-height: 1.5;
+            font-family: $bodyFont;
+            font-weight: 600;
+            width: 60%;
+        }
+        .hotline{
+            border-top: 2px solid black;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            #main{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                margin: 10px 0;
+                p{
+                    font-family: $bodyFont;
+                    margin: 0;
+                }
+                a{
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: cornflowerblue;
+                }
+                a:hover{
+                    color: grey;
                 }
             }
         }
@@ -570,6 +617,18 @@ body{
     #Contact{
         #email{
             width: 90% !important;
+        }
+    }
+
+    #Hotlines{
+        p{
+            width: 90% !important;
+        }
+        .hotline{
+            #main{
+                justify-content: none !important;
+                flex-direction: column;
+            }
         }
     }
 

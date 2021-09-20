@@ -10,7 +10,7 @@ export function Navbar(){
 
     const history = useHistory();
 
-    let { currentLanguage, setShowAbout, setShowContact } = useContext(Context);
+    let { currentLanguage, setShowAbout, setShowContact, setShowHotlines } = useContext(Context);
 
     const [mobileClass, setMobileClass] = useState("");
 
@@ -38,12 +38,19 @@ export function Navbar(){
         hideMobileMenu();
     }
 
+    const goHotlines = () => {
+        history.push("/hotlines");
+        setShowHotlines(true);
+        hideMobileMenu();
+    }
+
     return (<div id="Navbar">
         <h3>Are You Depressed?</h3>
         <div id="links">
             <span onClick={() => goHome()}>{currentLanguage.navbar.home}</span>
             <span onClick={() => goAbout()}>{currentLanguage.navbar.about}</span>
             <span onClick={() => goContact()}>{currentLanguage.navbar.contact}</span>
+            <span onClick={() => goHotlines()}>{currentLanguage.navbar.hotlines}</span>
             <span id="hamburger" onClick={() => toggleMobileMenu()}>{mobileClass ? <CloseIcon/> : <MenuIcon/>}</span>
         </div>
         <div id="mobile" className={mobileClass}>
@@ -52,6 +59,8 @@ export function Navbar(){
             <span onClick={() => goAbout()}>{currentLanguage.navbar.about}</span>
             <hr/>
             <span onClick={() => goContact()}>{currentLanguage.navbar.contact}</span>
+            <hr/>
+            <span onClick={() => goHotlines()}>{currentLanguage.navbar.hotlines}</span>
         </div>
     </div>)
 }

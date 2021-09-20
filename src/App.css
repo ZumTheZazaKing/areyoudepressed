@@ -288,6 +288,49 @@ body #Contact #email form input[type=submit]:active {
   box-shadow: 0 2.5px #0f5296;
   transform: translateY(2.5px);
 }
+body #Hotlines {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body #Hotlines h1 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+body #Hotlines #desc {
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  width: 60%;
+}
+body #Hotlines .hotline {
+  border-top: 2px solid black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+body #Hotlines .hotline #main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+}
+body #Hotlines .hotline #main p {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+body #Hotlines .hotline #main a {
+  font-weight: bold;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+body #Hotlines .hotline #main a:hover {
+  color: grey;
+}
 body #Rules {
   width: 100%;
   height: 100vh;
@@ -532,6 +575,14 @@ body #Result #returnButton:hover {
 
   #Contact #email {
     width: 90% !important;
+  }
+
+  #Hotlines p {
+    width: 90% !important;
+  }
+  #Hotlines .hotline #main {
+    justify-content: none !important;
+    flex-direction: column;
   }
 }
 

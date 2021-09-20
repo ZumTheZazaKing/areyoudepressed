@@ -2,7 +2,8 @@
     "navbar":{
         "home":"Home",
         "about":"About",
-        "contact":"Contact"
+        "contact":"Contact",
+        "hotlines":"Hotlines"
     },
     "mainPage":{
         "title":"Are You Depressed?",
@@ -58,6 +59,20 @@
         "emailSend":"Email sent",
         "emailError":"Something went wrong"
     },
+    "hotlinesPage":{
+        "title":"International Hotlines",
+        "description":"If you or someone you know is suicidal, call one of the numbers below. If someone is in IMMEDIATE danger, please call your local emergency number e.g. 911 in the US."
+    },
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -142,7 +157,7 @@
                 ],
                 [
                     "Your depression level is extremely severe. It is a must that you come in contact with a medical professional for assistance.\n",
-                    "If you're having any suicidal thoughts, please refrain from doing anything rash and contact your nation's suicide hotline.\n",
+                    "If you're having any suicidal thoughts, please refrain from doing anything rash and contact your local suicide hotline.\n",
                     "Remember, you are not alone."
                 ]
             ],
