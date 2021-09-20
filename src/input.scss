@@ -39,6 +39,9 @@ body{
         position: sticky;
         top: 0;
         left: 0;
+        img{
+            width: 250px;
+        }
         #links{
             display: flex;
             span{
@@ -562,6 +565,9 @@ body{
 @media only screen and (max-width: 800px) {
 
     #Navbar{
+        img{
+            width: 200px !important;
+        }
         #links{
             span{
                 display: none !important;

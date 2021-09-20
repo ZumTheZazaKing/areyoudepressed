@@ -35,6 +35,9 @@ body #Navbar {
   top: 0;
   left: 0;
 }
+body #Navbar img {
+  width: 250px;
+}
 body #Navbar #links {
   display: flex;
 }
@@ -536,6 +539,9 @@ body #Result #returnButton:hover {
 }
 
 @media only screen and (max-width: 800px) {
+  #Navbar img {
+    width: 200px !important;
+  }
   #Navbar #links span {
     display: none !important;
   }

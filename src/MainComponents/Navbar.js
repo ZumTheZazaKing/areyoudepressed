@@ -3,6 +3,7 @@ import { useContext, useState } from 'react';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import Logo from "../Images/logo2.png"
 
 import { Context } from '../Contexts/Context';
 
@@ -45,7 +46,7 @@ export function Navbar(){
     }
 
     return (<div id="Navbar">
-        <h3>Are You Depressed?</h3>
+        <img src={Logo} alt=""/>
         <div id="links">
             <span onClick={() => goHome()}>{currentLanguage.navbar.home}</span>
             <span onClick={() => goAbout()}>{currentLanguage.navbar.about}</span>
