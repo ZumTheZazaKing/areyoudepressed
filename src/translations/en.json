@@ -17,8 +17,8 @@
                 "With the rise of a new foe, humanity suffers an everlasting pandemic, spreading like wildfire with the slyness of a fox.\n",
                 "The said pandemic has caused many world leaders to take action, ceasing the rights of everyone's ability to roam freely on land, sea and sky.\n",
                 "The actions were solely to deter the uprising of the new enemy, COVID-19, however, the effects that it would take on some or many individuals were dreary.\n",
-                "With  the lack of communication and interaction with those of the same species, humans laid dormant in their homes, taking a toll on those who find it sickening.\n",
-                "This directly impacts their mental health giving them issues such as depression, anxiety and stress.\n",
+                "With the lack of communication and interaction with those of the same species, humans laid dormant in their homes, taking a toll on those who find it sickening.\n",
+                "This directly impacts their mental health, giving them issues such as depression, anxiety and stress.\n",
                 "As to recognise those who are victims to the mental impact the enemy has brought, we developed a web app that uses DASS-21 so people can assess their mental health easily.\n",
                 "The web app is called "
             ]
@@ -27,10 +27,11 @@
         "contentTwo":{
             "title":"What is DASS-21?",
             "body":[
-                "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed tomeasure the emotional states of depression, anxiety and stress.",
-                "Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content.",
-                "The depression scale assesses dysphoria, hopelessness, devaluation of life, self-deprecation, lack of interest / involvement, anhedonia and inertia.",
-                "The anxiety scale assesses autonomic arousal, skeletal muscle effects, situational anxiety, and subjective experience of anxious affect.",
+                "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed to measure the emotional states of depression, anxiety and stress.\n",
+                "Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content.\n",
+                "The depression scale assesses dysphoria, hopelessness, devaluation of life, self-deprecation, lack of interest / involvement, anhedonia and inertia.\n",
+                "The anxiety scale assesses autonomic arousal, skeletal muscle effects, situational anxiety, and subjective experience of anxious affect.\n",
+                "The stress scale assesses difficulty relaxing, nervous arousal, and being easily upset / agitated, irritable / over-reactive and impatient.\n",
                 "Scores for depression, anxiety and stress are calculated by summing the scores for the relevant items."
             ]
         },
@@ -102,7 +103,7 @@
             {"text":"I found myself getting agitated", "type":"stress"},
             {"text":"I found it difficult to relax", "type":"stress"},
             {"text":"I felt down-hearted and blue", "type":"depression"},
-            {"text":"I wan intolerant of anything that kept me from getting on with what I was doing", "type":"stress"},
+            {"text":"I was intolerant of anything that kept me from getting on with what I was doing", "type":"stress"},
             {"text":"I felt I was close to panic", "type":"anxiety"},
             {"text":"I was unable to become enthusiastic about anything", "type":"depression"},
             {"text":"I felt I wasn't worth much as a person", "type":"depression"},

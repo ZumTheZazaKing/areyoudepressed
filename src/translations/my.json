@@ -14,24 +14,25 @@
         "contentOne":{
             "title":"Apakah ini?",
             "body":[
-                "With the rise of a new foe, humanity suffers an everlasting pandemic, spreading like wildfire with the slyness of a fox.\n",
-                "The said pandemic has caused many world leaders to take action, ceasing the rights of everyone's ability to roam freely on land, sea and sky.\n",
-                "The actions were solely to deter the uprising of the new enemy, COVID-19, however, the effects that it would take on some or many individuals were dreary.\n",
-                "With  the lack of communication and interaction with those of the same species, humans laid dormant in their homes, taking a toll on those who find it sickening.\n",
-                "This directly impacts their mental health giving them issues such as depression, anxiety and stress.\n",
-                "As to recognise those who are victims to the mental impact the enemy has brought, we developed a web app that uses DASS-21 so people can assess their mental health easily.\n",
-                "The web app is called "
+                "Dengan munculnya musuh baru, manusia menderita pandemik berpanjangan yang merebak dangan cepat.\n",
+                "Pandemik tersebut telah menyebabkan banyak pemimpin dunia mengambil tindakan, mengambilkan hak kemampuan setiap orang untuk berkeliaran bebas di darat, laut dan langit.\n",
+                "Tindakan itu semata-mata untuk mencegah pemberontakan musuh baru, COVID-19, namun, kesan yang akan ditanggung oleh beberapa atau banyak individu menjadi suram.\n",
+                "Dengan kurangnya komunikasi dan interaksi dengan spesies yang sama, manusia secara tidak aktif duduk di kediaman mereka, hal ini menggangu mereka yang menganggapn keadaan tersebut menyakitkan.\n",
+                "Ini secara langsung mempengaruhi kesihatan mental mereka, memberi mereka masalah seperti kemurungan (depression), kegelisahan (anxiety) dan tekanan (stress).\n",
+                "Untuk mengenali mereka yang menjadi mangsa kesan mental yang dibawa musuh, kami membangunkan aplikasi web yang menggunakan DASS-21 supaya orang dapat menilai kesihatan mental mereka dengan mudah.\n",
+                "Nama aplikasi web tersebut adalah "
             ]
         },
         "starting":"Kita menggunakan DASS-21 untuk ujian.",
         "contentTwo":{
             "title":"Apakah itu DASS-21?",
             "body":[
-                "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed tomeasure the emotional states of depression, anxiety and stress.",
-                "Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content.",
-                "The depression scale assesses dysphoria, hopelessness, devaluation of life, self-deprecation, lack of interest / involvement, anhedonia and inertia.",
-                "The anxiety scale assesses autonomic arousal, skeletal muscle effects, situational anxiety, and subjective experience of anxious affect.",
-                "Scores for depression, anxiety and stress are calculated by summing the scores for the relevant items."
+                "Depression, Anxiety and Stress Scale - 21 Items (DASS-21) adalah satu set tiga skala laporan diri yang dibuat untuk mengukur keadaan emosi kemurungan (depression), kegelisahan (anxiety) dan tekanan (stress).\n",
+                "Setiap tiga skala DASS-21 mengandungi 7 item, dibahagikan kepada subskala dengan kandungan yang serupa.\n",
+                "Skala kemurungan (depression) menilai dysphoria, putus asa, penurunan nilai hidup, penghinaan diri, kekurangan minat / keterlibatan, anhedonia dan inertia.\n",
+                "Skala kegelisahan (anxiety) menilai rangsangan autonomi, kesan otot rangka, kegelisahan keadaan, dan pengalaman subjektif mengenai kecemasan.\n",
+                "Skala tekanan (stress) menilai kesukaran untuk bersantai, gairah saraf, dan mudah marah / gelisah, terlalu reaktif dan tidak sabar.\n",
+                "Skor untuk kemurungan (depression), kegelisahan (anxiety) dan tekanan (stress) dikira dengan menjumlahkan skor untuk item yang berkaitan."
             ]
         },
         "contentThree":{
@@ -81,55 +82,55 @@
         "back":"Kembali",
         "title":"Peraturan",
         "rules":[
-            "Please read the questions and pick an answer that best suits your condition for the PAST WEEK",
-            "There are no right and wrong answers, so don't worry about it",
-            "DON'T take too long answering any of the questions"
+            "Sila baca kenyataan dan pilih jawapan yang menggambarkan keadaan anda SEMINGGU yang lepas",
+            "Tidak ada jawapan yang betul atau salah",
+            "JANGAN guna terlalu banyak masa untuk mana-mana kenyataan"
         ],
-        "button":"MULA"
+        "button":"Mula"
     },
     "quizPage":{
         "questions":[
-            {"text":"I found it hard to wind down", "type":"stress"},
-            {"text":"I was aware of dryness of my mouth", "type":"anxiety"},
-            {"text":"I couldn't seem to experience any positive feeling at all", "type":"depression"},
-            {"text":"I experienced breathing difficulty (e.g excessively rapid breathing, breathlessness in the absence of physical exertion)", "type":"anxiety"},
-            {"text":"I found it difficult to work up the initiative to do things", "type":"depression"},
-            {"text":"I tended to over-react to situations", "type":"stress"},
-            {"text":"I experienced trembling (e.g in the hands)", "type":"anxiety"},
-            {"text":"I felt that I was using a lot of nervous energy", "type":"stress"},
-            {"text":"I was worried about situations in which I might panic and make a fool of myself", "type":"anxiety"},
-            {"text":"I felt that I had nothing to look forward to", "type":"depression"},
-            {"text":"I found myself getting agitated", "type":"stress"},
-            {"text":"I found it difficult to relax", "type":"stress"},
-            {"text":"I felt down-hearted and blue", "type":"depression"},
-            {"text":"I wan intolerant of anything that kept me from getting on with what I was doing", "type":"stress"},
-            {"text":"I felt I was close to panic", "type":"anxiety"},
-            {"text":"I was unable to become enthusiastic about anything", "type":"depression"},
-            {"text":"I felt I wasn't worth much as a person", "type":"depression"},
-            {"text":"I felt that I was rather touchy", "type":"stress"},
-            {"text":"I was aware of the action of my heart in the absence of physical exertion (e.g sense of heart rate increase, heart missing a beat)", "type":"anxiety"},
-            {"text":"I felt scared without any good reason", "type":"anxiety"},
-            {"text":"I felt that life was meaningless", "type":"depression"}
+            {"text":"Saya rasa susah untuk bertenang", "type":"stress"},
+            {"text":"Saya sedar mulut saya rasa kering", "type":"anxiety"},
+            {"text":"Saya seolah-olah tidak dapat mengalami perasaan positif sama sekali", "type":"depression"},
+            {"text":"Saya mengalami kesukaran bernafas (contohnya, bernafas terlalu cepat tercungap-cungap walaupun tidak melakukan aktiviti fizikal)", "type":"anxiety"},
+            {"text":"Saya rasa tidak bersemangat untuk memulakan sesuatu keadaan", "type":"depression"},
+            {"text":"Saya cenderung bertindak secara berlebihan kepada sesuatu keadaan", "type":"stress"},
+            {"text":"Saya pernah menggeletar (contohnya tangan)", "type":"anxiety"},
+            {"text":"Saya rasa saya terlalu gelisah", "type":"stress"},
+            {"text":"Saya risau akan berlaku keadaan di mana saya panik dan berkelakuan bodoh", "type":"anxiety"},
+            {"text":"Saya rasa tidak ada yang saya harapkan (putus harapan)", "type":"depression"},
+            {"text":"Saya dapati saya mudah resah", "type":"stress"},
+            {"text":"Saya merasa sukar untuk relaks", "type":"stress"},
+            {"text":"Saya rasa muram dan sedih", "type":"depression"},
+            {"text":"Saya tidak boleh menerima apa jua yang menghalangi saya daripada meneruskan apa yang saya sedang lakukan", "type":"stress"},
+            {"text":"Saya rasa hampir panik", "type":"anxiety"},
+            {"text":"Saya tidak bersemangat langsung", "type":"depression"},
+            {"text":"Saya rasa diri saya tidak berharga", "type":"depression"},
+            {"text":"Saya mudah tersinggung", "type":"stress"},
+            {"text":"Walaupun saya tidak melakukan aktiviti fizikal, saya sedar akan debaran jantung saya (contohnya, degupan jantung lebih cepat)", "type":"anxiety"},
+            {"text":"Saya rasa takut tanpa sebab", "type":"anxiety"},
+            {"text":"Saya rasa hidup ini tidak bererti lagi", "type":"depression"}
         ],
         "options":[
-            {"text":"Never", "value":0},
-            {"text":"Rarely","value":1},
-            {"text":"Frequent","value":2},
-            {"text":"Very often", "value":3}
+            {"text":"Tidak pernah", "value":0},
+            {"text":"Jarang","value":1},
+            {"text":"Kerap","value":2},
+            {"text":"Sangat Kerap", "value":3}
         ],
-        "button":"Next"
+        "button":"Seterusnya"
     },
     "resultPage":{
-        "title":"Results",
+        "title":"Keputusan",
         "depressionLabel":"Depression",
         "anxietyLabel":"Anxiety",
         "stressLabel":"Stress",
         "results":[
             "Normal",
-            "Mild",
-            "Moderate",
-            "Severe",
-            "Extremely Severe"
+            "Ringan",
+            "Sederhana",
+            "Teruk",
+            "Sangat Teruk"
         ],
         "resultTips":{
             "depression":[
@@ -231,7 +232,7 @@
                 ]
             ]
         },
-        "returnButton":"Return"
+        "returnButton":"Kembali"
         
     }
     

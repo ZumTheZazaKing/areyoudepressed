@@ -43,8 +43,9 @@ export function About(){
                 {currentLanguage.aboutPage.contentTwo.body[1]}
                 {currentLanguage.aboutPage.contentTwo.body[2]}
                 {currentLanguage.aboutPage.contentTwo.body[3]}
-                <br/><br/>
                 {currentLanguage.aboutPage.contentTwo.body[4]}
+                <br/><br/>
+                {currentLanguage.aboutPage.contentTwo.body[5]}
                 </p>
             </details>
         </div>
