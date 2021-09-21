@@ -1,15 +1,10 @@
-import { useEffect, useContext } from "react";
-import { useHistory } from 'react-router-dom';
+import { useContext } from "react";
 
 import { Context } from '../Contexts/Context';
 
 export function About(){
 
-    const history = useHistory();
-
-    let { showAbout, currentLanguage } = useContext(Context);
-
-    useEffect(() => {if(!showAbout)history.push("/")});
+    let { currentLanguage } = useContext(Context);
 
     return <div id="About">
         <div className="content">

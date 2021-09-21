@@ -157,7 +157,7 @@ export function Result(){
     }
 
     useEffect(() => {
-        if(!showResult)history.push("/");
+        if(!showResult)history.push("");
 
         calculatePercentages();
 

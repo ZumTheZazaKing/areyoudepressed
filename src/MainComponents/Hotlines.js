@@ -1,5 +1,4 @@
-import { useEffect, useContext } from "react";
-import { useHistory } from "react-router-dom";
+import { useContext } from "react";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import CircularProgress from '@mui/material/CircularProgress';
 
@@ -7,11 +6,7 @@ import { Context } from "../Contexts/Context";
 
 export function Hotlines(){
 
-    const history = useHistory();
-
-    let { currentLanguage, showHotlines } = useContext(Context);
-
-    useEffect(() => {if(!showHotlines)history.push("/")});
+    let { currentLanguage } = useContext(Context);
 
     const hotlines = [
         {name:"Algeria", emergency:"43", suicide:"0021 3983 2000 58", code:"dz"},
