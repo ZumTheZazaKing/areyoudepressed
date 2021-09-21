@@ -2,7 +2,6 @@ import { useHistory } from 'react-router-dom';
 import { useContext, useState } from 'react';
 
 import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
 import Logo from "../Images/logo2.png"
 
 import { Context } from '../Contexts/Context';
@@ -56,7 +55,7 @@ export function Navbar(){
             <span onClick={() => goAbout()}>{currentLanguage.navbar.about}</span>
             <span onClick={() => goContact()}>{currentLanguage.navbar.contact}</span>
             <span onClick={() => goHotlines()}>{currentLanguage.navbar.hotlines}</span>
-            <span id="hamburger" onClick={() => toggleMobileMenu()}>{mobileClass ? <CloseIcon/> : <MenuIcon/>}</span>
+            <span id="hamburger" onClick={() => toggleMobileMenu()}>{mobileClass ? "X" : <MenuIcon/>}</span>
         </div>
         <div id="mobile" className={mobileClass}>
             <span onClick={() => goHome()}>{currentLanguage.navbar.home}</span>
