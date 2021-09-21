@@ -11,7 +11,7 @@ export function Rules(){
 
     let { setQuizStart, currentLanguage, setShowNav, showRules } = useContext(Context);
 
-    useEffect(() => {if(!showRules)history.push("")})
+    useEffect(() => {if(!showRules)history.push("/")})
 
     const rules = currentLanguage.rulesPage.rules;
 

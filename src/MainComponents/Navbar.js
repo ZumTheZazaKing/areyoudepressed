@@ -11,7 +11,7 @@ export function Navbar(){
 
     const history = useHistory();
 
-    let { currentLanguage, setLanguage, language, setShowAbout, setShowContact, setShowHotlines } = useContext(Context);
+    let { currentLanguage, setLanguage, language } = useContext(Context);
 
     const [mobileClass, setMobileClass] = useState("");
 
@@ -29,19 +29,16 @@ export function Navbar(){
 
     const goAbout = () => {
         history.push("/about");
-        setShowAbout(true);
         hideMobileMenu();
     }
 
     const goContact = () => {
         history.push("/contact");
-        setShowContact(true);
         hideMobileMenu();
     }
 
     const goHotlines = () => {
         history.push("/hotlines");
-        setShowHotlines(true);
         hideMobileMenu();
     }
 

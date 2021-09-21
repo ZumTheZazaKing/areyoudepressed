@@ -20,10 +20,7 @@ function App() {
 
   const [quizStart, setQuizStart] = useState(false);
   const [showResult, setShowResult] = useState(false);
-  const [showAbout, setShowAbout] = useState(false);
   const [showRules, setShowRules] = useState(false);
-  const [showContact, setShowContact] = useState(false);
-  const [showHotlines, setShowHotlines] = useState(false);
   const [showNav, setShowNav] = useState(true);
 
   const [depressionScore, setDepressionScore] = useState(0);
@@ -52,9 +49,6 @@ function App() {
               currentLanguage, setLanguage, language,
               showNav, setShowNav,
               showRules, setShowRules,
-              showAbout, setShowAbout,
-              showContact, setShowContact,
-              showHotlines, setShowHotlines,
               quizStart, setQuizStart,
               showResult, setShowResult,
               depressionScore, setDepressionScore,

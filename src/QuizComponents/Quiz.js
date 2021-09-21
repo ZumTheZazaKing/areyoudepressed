@@ -10,7 +10,7 @@ export function Quiz(){
 
     const history = useHistory();
 
-    useEffect(() => {if(!quizStart)history.push("")});
+    useEffect(() => {if(!quizStart)history.push("/")});
 
     let { quizStart, currentLanguage,
         depressionScore, setDepressionScore, 
