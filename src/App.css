@@ -65,9 +65,6 @@ body #Navbar #links span {
 }
 body #Navbar #links #hamburger {
   display: none;
-  width: 30px;
-  text-align: center;
-  font-size: 20px;
 }
 body #Navbar #mobile {
   display: none;

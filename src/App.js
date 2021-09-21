@@ -43,7 +43,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Suspense fallback={<div id="loading"><CircularProgress size={80}/></div>}>
+        <Suspense fallback={<div id="loading"><CircularProgress disableShrink={true} size={80}/></div>}>
           <Switch>
 
             <Context.Provider value={{
