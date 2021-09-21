@@ -135,32 +135,32 @@
         "resultTips":{
             "depression":[
                 [
-                    "Your depression level is normal. That's a good thing! But you have to maintain it.\n",
-                    "It is best that you take measures in preventing yourself from attaining depression.\n",
-                    "Measures such as exercising regularly, avoiding toxic people and getting plenty of sleep.\n",
+                    "Tahap kemurungan (depression) anda adalah normal. Itu perkara yang baik! Tetapi anda harus mengekalkannya.\n",
+                    "Sebaiknya anda mengambil langkah-langkah untuk mencegah diri daripada mengalami kemurungan.\n",
+                    "Langkah-langkah seperti bersenam, mengelakkan orang toksik dan banyakkan tidur.\n",
                     "Wish you the best of luck!"
                 ],
                 [
-                    "Your depression level is mild. That's a stage higher than normal.\n",
-                    "But don't worry, it'll be alright. Just make sure to eat well and maintain a healthy weight.\n",
-                    "A healthy mind comes with a healthy body. Also, be sure to interact more with your friends and maintain a healthy relationship."
+                    "Tahap kemurungan (depression) anda adalah ringan. Itu satu tahap lebih tinggi dari normal.\n",
+                    "Tapi jangan risau, tidak apa-apa. Pastikan makan dengan baik dan mengekalkan berat badan yang sihat.\n",
+                    "Minda yang cerdas datang dengan badan yang cergas. Juga, pastikan anda lebih banyak berinteraksi dengan rakan-rakan anda dan menjaga hubungan yang sihat."
                 ],
                 [
-                    "Your depression level seems to be moderate...for now.\n",
-                    "It's recommended that you stop doing activities such as communicating with the wrong people,\n",
-                    "eating an unbalanced diet and thinking about negative thoughts. Put a halt to anything that can\n",
-                    "cause your depression to grow. Also, be sure to make some time for yourself to talk with yourself."
+                    "Tahap kemurungan (depression) anda nampaknya sederhana ... buat masa ini.\n",
+                    "Sebaiknya anda berhenti melakukan aktiviti seperti berkomunikasi dengan orang yang salah,\n",
+                    "makan makanan yang tidak seimbang dan memikirkan fikiran negatif. Hentikan apa sahaja yang boleh\n",
+                    "menyebabkan kemurungan anda bertambah. Juga, pastikan anda meluangkan masa untuk bercakap dengan diri sendiri."
                 ],
                 [
-                    "Your depression level has reached the stage of severe. That is not good.\n",
-                    "Small efforts to undo it will be futile. It is highly suggested that you talk with those\n",
-                    "who you can trust such as friends or loved ones about your ordeal or consult a medical professional\n",
-                    "such as a counselor or a therapist. Please do so if you wish for help."
+                    "Tahap kemurungan (depression) anda telah mencapai tahap yang teruk. Itu tidak bagus.\n",
+                    "Usaha kecil untuk membatalkannya akan sia-sia. Sangat disarankan agar anda bercakap dengan mereka\n",
+                    "yang boleh anda percayai seperti rakan atau orang tersayang mengenai penderitaan anda atau berunding dengan profesional perubatan\n",
+                    "seperti kaunselor atau ahli terapi. Tolong berbuat demikian jika anda meminta pertolongan."
                 ],
                 [
-                    "Your depression level is extremely severe. It is a must that you come in contact with a medical professional for assistance.\n",
-                    "If you're having any suicidal thoughts, please refrain from doing anything rash and contact your local suicide hotline.\n",
-                    "Remember, you are not alone."
+                    "Tahap kemurungan (depression) anda adalah sangat teruk. Anda mesti menghubungi profesional perubatan untuk mendapatkan bantuan.\n",
+                    "Sekiranya anda mempunyai pemikiran untuk membunuh diri, tolong menahan diri dari melakukan apa-apa dan hubungi talian hotline bunuh diri tempatan anda.\n",
+                    "Ingat, anda tidak keseorangan."
                 ]
             ],
 
@@ -168,31 +168,31 @@
 
             "anxiety":[
                 [
-                    "Your anxiety level is normal. That's good because occasional anxiety is completely OK.\n",
-                    "Anxiety is a normal human experience. Don't let it stretch too far out.\n",
-                    "Wish you all the best! As long as you take measures to do so, you'll be alright.\n"
+                    "Tahap kegelisahan (anxiety) anda adalah normal. Itu bagus kerana kegelisahan sekali-sekala benar-benar baik.\n",
+                    "Kegelisahan adalah pengalaman normal manusia. Tetapi, jangan biarkan ia mengawal anda sepenuhnya.\n",
+                    "Selagi anda mengambil langkah untuk mencegahnya, anda akan baik-baik saja. Semoga anda yang terbaik! \n"
                 ],
                 [
-                    "Your anxiety level is mild. That's a bit over the average but you'll be alright as long as\n",
-                    "you make sure that it doesn't go out of your control. Write down your thoughts and take a walk\n",
-                    "from time to time. Do something that can calm you down or go to places with a relaxing atmosphere."
+                    "Tahap kegelisahan (anxiety) anda adalah ringan. Itu sedikit melebihi apa yang normal tetapi anda akan baik-baik saja selagi anda\n",
+                    "memastikan bahawa ia tidak di luar kawalan anda. Tuliskan fikiran anda dan berjalan-jalan\n",
+                    "dari semasa ke semasa. Lakukan sesuatu yang dapat menenangkan anda atau pergi ke tempat-tempat dengan suasana santai."
                 ],
                 [
-                    "Your anxiety level is moderate. It's highly suggested that you start taking precautions such as\n",
-                    "trying supplements, changing your diet and questioning your thought patterns. Your anxiety\n",
-                    "should be handled properly to prevent it from furthur growing to a scale that you might find difficult to manage."
+                    "Tahap kegelisahan (anxiety) anda adalah sederhana. Sangat disarankan agar anda mula mengambil langkah berjaga-jaga seperti\n",
+                    "mencuba makanan tambahan, mengubah diet anda dan mempersoalkan corak pemikiran anda. Kegelisahan anda\n",
+                    "harus ditangani dengan betul untuk mencegahnya daripada berkembang hingga ke peringkat yang mungkin sukar untuk anda atasi."
                 ],
                 [
-                    "Your anxiety level is severe. It's gone up to the stage where it may disrupt your daily activities.\n",
-                    "You should try and focus on using better strategies for coping with anxiety such as identifying and\n",
-                    "learning to manage your triggers and adopting cognitive behavioral therapy (CBT). Of course, you can\n",
-                    "always ask your doctor about medications."
+                    "Tahap kegelisahan (anxiety) anda adalah teruk. Ia naik ke tahap di mana ia boleh mengganggu aktiviti harian anda.\n",
+                    "Anda harus berusaha dan fokus menggunakan strategi yang lebih baik untuk mengatasi kegelisahan seperti mengenal pasti dan\n",
+                    "belajar menguruskan pencetus (triggers) anda dan menggunakan terapi tingkah laku kognitif (CBT). Sudah tentu, anda selalu boleh\n",
+                    "bertanya kepada doktor mengenai ubat-ubatan."
                 ],
                 [
-                    "Your anxiety level is extremely severe. At this point, your anxiety may start to become harmful.\n ",
-                    "There are times anxiety can get serious and turn into anxiety attacks that initially feel manageable and then gradually build up over a few hours.\n",
-                    "Worst case scenario, you can experience an anxiety and panic attack simultaneously. Identifying the signs\n",
-                    "is one thing but it is better that you seek attention from a medical professional."
+                    "Tahap kegelisahan (anxiety) anda adalah sangat teruk. Pada ketika ini, kegelisahan anda mungkin mulai memudaratkan.\n ",
+                    "Ada kalanya kegelisahan menjadi serius dan berubah menjadi serangan kecemasan (anxiety attacks) yang pada awalnya terasa dapat dikendalikan dan kemudian secara beransur-ansur meningkat dalam beberapa jam.\n",
+                    "Senario terburuk, anda boleh mengalami serangan kecemasan (anxiety attack) dan serangan panik (panic attack) secara serentak. Mengenal pasti tanda adalah\n",
+                    "satu perkara tetapi lebih baik anda mendapatkan perhatian daripada profesional perubatan."
                 ]
             ],
 
@@ -200,35 +200,35 @@
 
             "stress":[
                 [
-                    "Your stress level is normal. Stress is a normal psychological and physical reaction\n", 
-                    "to positive or negative situations in your life, such as a new job or the death of a loved one.\n",
-                    "Just make sure that it doesn't become more than you can handle.\n",
-                    "Do that and you'll be able to maintain your normal stress level for a long time.\n",
-                    "Wish you all the success!"
+                    "Tahap tekanan (stress) anda adalah normal. Tekanan adalah reaksi psikologi dan fizikal yang normal\n", 
+                    "terhadap situasi positif atau negatif dalam hidup anda, seperti pekerjaan baru atau kematian orang yang anda sayangi.\n",
+                    "Pastikan ia tidak menjadi lebih daripada yang anda boleh kendalikan.\n",
+                    "Lakukan itu dan anda akan dapat mengekalkan tahap tekanan normal anda dalam jangka masa yang lama.\n",
+                    "Semoga anda berjaya!"
                 ],
                 [
-                    "Your stress level is mild. A bit higher than what's normal but not strong enough to make an impact\n",
-                    "on your daily life. Some day-to-day stress is normal but we all need to know when to close our eyes\n",
-                    "and take a deep breath when we feel tension rising. Remember to take care of yourself with plenty of sleep,\n",
-                    "limiting alcohol and stimulants and giving yourself a break when you feel stressed out."
+                    "Tahap tekanan (stress) anda adalah ringan. Sedikit lebih tinggi daripada yang biasa tetapi tidak cukup kuat untuk memberi kesan\n",
+                    "kepada kehidupan seharian anda. Beberapa stres sehari-hari adalah normal tetapi kita semua perlu tahu kapan harus menutup mata\n",
+                    "dan menarik nafas lega ketika kita merasakan ketegangan meningkat. Ingatlah untuk menjaga diri dengan banyak tidur,\n",
+                    "mengehadkan alkohol dan perangsang dan memberi diri anda rehat ketika anda merasa tertekan."
                 ],
                 [
-                    "Your stress level is moderate. It's recommended that you start taking steps to cope with stress such as\n",
-                    "balancing work and home time, carving out hobby time and resting when you really need it. It's to make\n",
-                    "sure that your stress doesn't reach the level where it can start to harm you and effect those around you.\n",
-                    "All in all, take better care of yourself. You can't take care of other matters if you can't even take care of yourself."
+                    "Tahap tekanan (stress) anda adalah sederhana. Sebaiknya anda mula mengambil langkah-langkah untuk mengatasi tekanan seperti\n",
+                    "menyeimbangkan waktu kerja dan rumah, mengukir masa hobi dan berehat ketika anda sangat memerlukannya. Ini untuk memastikan\n",
+                    "bahawa tekanan anda tidak sampai ke tahap di mana ia boleh mula membahayakan anda dan memberi kesan kepada orang di sekeliling anda.\n",
+                    "Secara keseluruhan, jaga diri anda dengan lebih baik. Anda tidak boleh mengurus perkara lain jika anda tidak dapat mengurus diri sendiri."
                 ],
                 [
-                    "Your stress level is severe. It's time you start taking things seriously and really put an effort to relieve yourself.\n",
-                    "Connect with supportive people who can listen and help you. Perhaps, if the oppurtunity arises, take a vacation\n",
-                    "and get away from it all. Remember to go easy on yourself and things around you. Listen to some music for that extra\n",
-                    "stress relief and refer to a doctor for medication."
+                    "Tahap tekanan (stress) anda adalah teruk. Sudah tiba masanya anda mula memandang serius dan berusaha keras untuk melegakan diri.\n",
+                    "Berhubung dengan orang yang dapat mendengar dan menolong anda. Mungkin, jika peluang timbul, berliburlah\n",
+                    "dan jauhkan diri dari semuanya. Ingatlah untuk bersikap mudah terhadap diri sendiri dan perkara di sekeliling anda. Dengarkan muzik untuk menghilangkan tekanan tambahan \n",
+                    "dan berjumpa doktor untuk mendapatkan ubat."
                 ],
                 [
-                    "Your stress level is extremely severe. You probably experience headaches from time to time and a decrease\n",
-                    "in energy along with insomnia. Your stress has reached the stage where it's now harmful to yourself and it may\n",
-                    "effect others as well. It's best that you stop taking tobacco and stimulants if you are and seek attention\n",
-                    "from a medical professional."
+                    "Tahap tekanan (stress) anda adalah sangat teruk. Anda mungkin mengalami sakit kepala dari semasa ke semasa dan penurunan\n",
+                    "tenaga bersama dengan insomnia. Tekanan anda telah sampai ke tahap di mana sekarang membahayakan diri sendiri dan ini juga\n",
+                    "boleh mempengaruhi orang lain. Sebaiknya anda berhenti mengambil tembakau dan perangsang jika anda ada dan\n",
+                    "mendapatkan perhatian daripada profesional perubatan."
                 ]
             ]
         },
