@@ -23,13 +23,14 @@ import Button from '@material-ui/core/Button';
 
 export function Main(){
 
-    let { currentLanguage, setShowNav } = useContext(Context);
+    let { currentLanguage, setShowNav, setShowRules } = useContext(Context);
 
     const history = useHistory();
 
     const takeTest = () => {
         history.push("/rules");
         setShowNav(false);
+        setShowRules(true)
     }
 
     let [image, setImage] = useState(Image1);

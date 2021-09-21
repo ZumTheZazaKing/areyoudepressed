@@ -1,5 +1,5 @@
 import { useHistory } from "react-router-dom"
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 
 import { Context } from "../Contexts/Context";
 
@@ -9,7 +9,9 @@ export function Rules(){
 
     const history = useHistory();
 
-    let { setQuizStart, currentLanguage, setShowNav } = useContext(Context);
+    let { setQuizStart, currentLanguage, setShowNav, showRules } = useContext(Context);
+
+    useEffect(() => {if(!showRules)history.push("")})
 
     const rules = currentLanguage.rulesPage.rules;
 

@@ -1,4 +1,5 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { useHistory } from "react-router-dom";
 import { send } from 'emailjs-com';
 import TextField from '@material-ui/core/TextField'; 
 import Snackbar from '@mui/material/Snackbar';
@@ -7,6 +8,8 @@ import Alert from '@mui/material/Alert';
 import { Context } from "../Contexts/Context";
 
 export function Contact(){
+
+    const history = useHistory();
 
     const [sendName, setSendName] = useState("");
     const [sendEmail, setSendEmail] = useState("");
@@ -53,8 +56,9 @@ export function Contact(){
 
     }
 
-    let { currentLanguage } = useContext(Context);
+    let { showContact, currentLanguage } = useContext(Context);
 
+    useEffect(() => {if(!showContact)history.push("")});
 
     return (<div id="Contact">
         <div id="email">
