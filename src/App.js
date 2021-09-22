@@ -1,5 +1,5 @@
 import { lazy, Suspense, useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import CircularProgress from '@mui/material/CircularProgress';
 
 import { Context } from "./Contexts/Context";
@@ -39,7 +39,7 @@ function App() {
   },[language])
 
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Suspense fallback={<div id="loading"><CircularProgress disableShrink={true} size={80}/></div>}>
           <Switch>
@@ -84,7 +84,7 @@ function App() {
           </Switch>
         </Suspense>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 

@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import { useHistory } from "react-router-dom";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import CircularProgress from '@mui/material/CircularProgress';
 
