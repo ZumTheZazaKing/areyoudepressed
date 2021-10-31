@@ -67,4 +67,10 @@ It already answers that above but if I had to be honest, I did it for an innovat
 
 I'll add chinese language option when I want to. For now, nothing big really
 
+---
+<p align="center"> © 2021 ZumTheZazaKing, all rights reserved. Made with ❤️ &nbsp; for a better web. </p>
+<p align="center">
+https://zumthezazaking.netlify.app
+</p>
+
 
