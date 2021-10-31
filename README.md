@@ -60,7 +60,7 @@ You can see the web app for yourself by using the following link: http://areyoud
 
 ## Why did you make this project?
 
-It already answers that above but if I had to be honest, I did it for an innovation competition and fro fun
+It already answers that above but if I had to be honest, I did it for an innovation competition and for fun
 
 
 ## Any future plans?
